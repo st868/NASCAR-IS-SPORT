@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="87px" viewBox="0 0 12 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Sabrina" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2_Desktop_New-Copy-2" transform="translate(-42.000000, -782.000000)" stroke="#FFFFFF">
+            <g id="Arrow" transform="translate(43.000000, 782.000000)">
+                <line x1="5.5" y1="0.349085691" x2="5" y2="86.3490857" id="Line-8" stroke-linecap="square"></line>
+                <g id="Group-3" transform="translate(0.000000, 79.418111)">
+                    <line x1="0" y1="0.43097495" x2="5" y2="7.43097495" id="Path-2"></line>
+                    <line x1="5" y1="0.43097495" x2="10" y2="7.43097495" id="Path-2" transform="translate(7.500000, 3.930975) scale(-1, 1) translate(-7.500000, -3.930975) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

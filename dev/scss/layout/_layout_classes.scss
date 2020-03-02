@@ -1,0 +1,60 @@
+.point_hero{
+        padding-top: 60px;
+        background-color: $darkgrey;
+        color: $white;
+
+        @include sm{
+            padding-top: 80px;
+        }
+
+        @include md{
+            padding-top: 90px;
+        }
+
+        @include lg{
+            padding-top: 125px;
+        }
+    .sectionpadding{
+        padding: 0 0 0 48px;
+        .point{
+            display: flex;
+            align-items: center;
+            div{
+                background-color: $white;
+                width: 75px;
+                height: 2px;
+            }
+            p{
+                padding-left: 5px;
+                color: $white;
+            }
+
+        }
+
+        h1{
+
+        }
+
+        h2{
+
+        }
+
+        .pointheroimg{
+            height: 320px;
+            @include md{
+                height: 366px;
+            }
+            @include lg{
+                height: 407px;
+            }
+        }
+
+        img{
+
+        }
+
+        p{
+
+        }
+    }
+}

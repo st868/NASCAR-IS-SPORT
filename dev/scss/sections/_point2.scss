@@ -1,0 +1,24 @@
+#point2-container{
+    #hero_2{
+
+        h1{
+            color: $blue;
+        }
+
+        #herosubheadercontainer{
+            width: 200px;
+            @include md{
+                width: 50%;
+            }
+        }
+
+        #hero2-bgimg{
+            background-image: url('../img/point2/hero2-img.jpg');
+            width: 100%;
+        }
+
+        img{
+            display: none;
+        }
+    }
+}
