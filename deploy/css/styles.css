@@ -414,85 +414,85 @@ textarea {
       display: grid;
       grid-template-columns: auto 1200px auto;
       grid-template-areas: ". pointhero ."; } }
-  .point_hero .sectionpadding {
+  .point_hero .herosectionpadding {
     padding: 0 17px 0 48px; }
     @media (min-width: 768px) {
-      .point_hero .sectionpadding {
+      .point_hero .herosectionpadding {
         padding: 41px 48px;
         display: grid;
         grid-template-columns: 45% 55%;
         grid-template-areas: "point pointimg" "number pointimg" "pointsubhead pointsubhead" "arrow paragraph"; } }
     @media (min-width: 992px) {
-      .point_hero .sectionpadding {
+      .point_hero .herosectionpadding {
         grid-template-columns: 40% 60%; } }
     @media (min-width: 1200px) {
-      .point_hero .sectionpadding {
+      .point_hero .herosectionpadding {
         grid-area: pointhero; } }
-    .point_hero .sectionpadding .point {
+    .point_hero .herosectionpadding .point {
       display: flex;
       align-items: center;
       margin-left: -75px; }
       @media (min-width: 768px) {
-        .point_hero .sectionpadding .point {
+        .point_hero .herosectionpadding .point {
           grid-area: point;
           align-items: flex-start; } }
       @media (min-width: 1200px) {
-        .point_hero .sectionpadding .point {
+        .point_hero .herosectionpadding .point {
           margin-left: -175px; } }
-      .point_hero .sectionpadding .point div {
+      .point_hero .herosectionpadding .point div {
         background-color: #fff;
         width: 75px;
         height: 2px; }
         @media (min-width: 1200px) {
-          .point_hero .sectionpadding .point div {
+          .point_hero .herosectionpadding .point div {
             width: 175px; } }
-      .point_hero .sectionpadding .point h6 {
+      .point_hero .herosectionpadding .point h6 {
         padding-left: 5px;
         color: #fff; }
         @media (min-width: 768px) {
-          .point_hero .sectionpadding .point h6 {
+          .point_hero .herosectionpadding .point h6 {
             margin-top: -7px; } }
-    .point_hero .sectionpadding h1 {
+    .point_hero .herosectionpadding h1 {
       margin: -10px 0 0 -10px; }
       @media (min-width: 768px) {
-        .point_hero .sectionpadding h1 {
+        .point_hero .herosectionpadding h1 {
           grid-area: number;
           margin: -80px 0 0 -10px; } }
       @media (min-width: 992px) {
-        .point_hero .sectionpadding h1 {
+        .point_hero .herosectionpadding h1 {
           margin: -80px 0 0 -20px; } }
-    .point_hero .sectionpadding .herosubheadercontainer {
+    .point_hero .herosectionpadding .herosubheadercontainer {
       margin-top: -20px; }
       @media (min-width: 768px) {
-        .point_hero .sectionpadding .herosubheadercontainer {
+        .point_hero .herosectionpadding .herosubheadercontainer {
           grid-area: pointsubhead;
           margin-top: -40px; } }
-    .point_hero .sectionpadding .pointheroimg {
+    .point_hero .herosectionpadding .pointheroimg {
       display: none;
       margin-bottom: -310px;
       opacity: .25;
       height: 300px; }
       @media (min-width: 768px) {
-        .point_hero .sectionpadding .pointheroimg {
+        .point_hero .herosectionpadding .pointheroimg {
           opacity: 1;
           margin: 0;
           display: block;
           height: 366px;
           grid-area: pointimg; } }
       @media (min-width: 992px) {
-        .point_hero .sectionpadding .pointheroimg {
+        .point_hero .herosectionpadding .pointheroimg {
           height: 407px; } }
-    .point_hero .sectionpadding img {
+    .point_hero .herosectionpadding img {
       display: none; }
       @media (min-width: 768px) {
-        .point_hero .sectionpadding img {
+        .point_hero .herosectionpadding img {
           display: block;
           grid-area: arrow;
           padding-top: 40px; } }
-    .point_hero .sectionpadding p {
+    .point_hero .herosectionpadding p {
       padding: 10px 0 45px 0; }
       @media (min-width: 768px) {
-        .point_hero .sectionpadding p {
+        .point_hero .herosectionpadding p {
           grid-area: paragraph;
           padding: 0; } }
 
@@ -549,6 +549,15 @@ textarea {
       .QAcontainer .QA p {
         font-size: 1.5rem;
         padding-left: 5px; } }
+
+.sectionpadding {
+  padding: 47px 17px 47px 52px; }
+  @media (min-width: 768px) {
+    .sectionpadding {
+      padding: 68px 48px; } }
+  @media (min-width: 992px) {
+    .sectionpadding {
+      padding: 60px 42px; } }
 
 #point2-container #hero_2 h1 {
   color: #0477BE; }

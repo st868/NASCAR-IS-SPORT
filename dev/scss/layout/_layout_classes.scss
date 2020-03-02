@@ -20,7 +20,7 @@
             grid-template-columns: auto 1200px auto;
             grid-template-areas: ". pointhero .";
         }
-    .sectionpadding{
+    .herosectionpadding{
         padding: 0 17px 0 48px;
         @include md{
             padding: 41px 48px;
@@ -177,6 +177,7 @@
         width: 221px;
     }
 }
+
     p{
         color: $white;
         font-size: rem-calc(20);
@@ -194,4 +195,16 @@
         }
     }
 }
+}
+
+//THIS IS FOR ADDING PADDING TO ANY ELEMENT THAT YOU NEED. SEE POINT 2'S PAGE FOR EXAMPLE.
+.sectionpadding{
+    padding: 47px 17px 47px 52px;
+
+    @include md{
+        padding: 68px 48px;
+    }
+    @include lg{
+        padding: 60px 42px;
+    }
 }
