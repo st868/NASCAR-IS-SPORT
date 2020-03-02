@@ -35,6 +35,215 @@
 		"oAP": "/deploy/home.html",
 		"oF": 0
 		},
+	"/deploy/img/point2/carsontrack.jpg": {
+		"ft": 16384,
+		"iS": 210705,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/carsontrack.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/footballplayer.png": {
+		"ft": 32768,
+		"iS": 232427,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/footballplayer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/point2/hero2-img.jpg": {
+		"ft": 16384,
+		"iS": 174330,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/hero2-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/interior.jpg": {
+		"ft": 16384,
+		"iS": 130692,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/interior.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/nascardriver.png": {
+		"ft": 32768,
+		"iS": 307586,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/nascardriver.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/point2/original/cars_on_track.jpg": {
+		"ft": 16384,
+		"iS": 348067,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/original/cars_on_track.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/original/carsontrack.jpg": {
+		"ft": 16384,
+		"iS": 547431,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/original/carsontrack.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/original/footballplayer.png": {
+		"ft": 32768,
+		"iS": 897893,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/original/footballplayer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/point2/original/hero2-img.jpg": {
+		"ft": 16384,
+		"iS": 550274,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/original/hero2-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/original/interior.jpg": {
+		"ft": 16384,
+		"iS": 443683,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/original/interior.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/original/nascardriver.png": {
+		"ft": 32768,
+		"iS": 1135275,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/original/nascardriver.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/point2/original/pitcrew1.jpg": {
+		"ft": 16384,
+		"iS": 936970,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/original/pitcrew1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/original/pitcrew2.jpg": {
+		"ft": 16384,
+		"iS": 2098378,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/original/pitcrew2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/original/text-bg.jpg": {
+		"ft": 16384,
+		"iS": 1325453,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/original/text-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/original/tldr-bg.jpg": {
+		"ft": 16384,
+		"iS": 861985,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/original/tldr-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/pitcrew1.jpg": {
+		"ft": 16384,
+		"iS": 108648,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/pitcrew1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/pitcrew2.jpg": {
+		"ft": 16384,
+		"iS": 270214,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/pitcrew2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/text-bg.jpg": {
+		"ft": 16384,
+		"iS": 111190,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/text-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point2/tldr-bg.jpg": {
+		"ft": 16384,
+		"iS": 78531,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point2/tldr-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/js/header-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -114,6 +323,14 @@
 		"oAP": "/deploy/point3.html",
 		"oF": 0
 		},
+	"/dev/html/footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/html/footer.html",
+		"oF": 0
+		},
 	"/dev/html/home/home.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -134,7 +351,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/html/navigation/navigation.html",
 		"oF": 0
 		},
@@ -161,6 +378,14 @@
 		"oA": 0,
 		"oAP": "/deploy/point3.html",
 		"oF": 2
+		},
+	"/dev/html/sub-footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/html/sub-footer.html",
+		"oF": 0
 		},
 	"/dev/js/burger/burger.js": {
 		"bF": 0,
@@ -465,6 +690,28 @@
 		"oA": 0,
 		"oAP": "/NASCAR-IS-A-SPORT/.gitattributes",
 		"oF": 0
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		}
 	},
 "hooks": [
