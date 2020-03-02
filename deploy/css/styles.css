@@ -324,7 +324,7 @@ ul {
 /* =============
     Typography
 ============= */
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, h6, p {
   padding: 0;
   margin: 0; }
 
@@ -352,15 +352,18 @@ h2 {
       line-height: 4.3125rem; } }
   @media (min-width: 992px) {
     h2 {
-      font-size: 5.25rem;
-      line-height: 5.875rem; } }
+      font-size: 5rem;
+      line-height: 5.625rem; } }
 
 h3 {
   font-family: 'Oswald', sans-serif;
   color: #fff; }
 
 h4 {
-  font-family: 'Oswald', sans-serif; }
+  font-family: 'din-condensed', sans-serif; }
+
+h6 {
+  font-family: 'Roboto', sans-serif; }
 
 p {
   font-family: 'Roboto', sans-serif;
@@ -406,39 +409,164 @@ textarea {
   @media (min-width: 992px) {
     .point_hero {
       padding-top: 125px; } }
+  @media (min-width: 1200px) {
+    .point_hero {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". pointhero ."; } }
   .point_hero .sectionpadding {
-    padding: 0 0 0 48px; }
+    padding: 0 17px 0 48px; }
+    @media (min-width: 768px) {
+      .point_hero .sectionpadding {
+        padding: 41px 48px;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        grid-template-areas: "point pointimg" "number pointimg" "pointsubhead pointsubhead" "arrow paragraph"; } }
+    @media (min-width: 992px) {
+      .point_hero .sectionpadding {
+        grid-template-columns: 40% 60%; } }
+    @media (min-width: 1200px) {
+      .point_hero .sectionpadding {
+        grid-area: pointhero; } }
     .point_hero .sectionpadding .point {
       display: flex;
-      align-items: center; }
+      align-items: center;
+      margin-left: -75px; }
+      @media (min-width: 768px) {
+        .point_hero .sectionpadding .point {
+          grid-area: point;
+          align-items: flex-start; } }
+      @media (min-width: 1200px) {
+        .point_hero .sectionpadding .point {
+          margin-left: -175px; } }
       .point_hero .sectionpadding .point div {
         background-color: #fff;
         width: 75px;
         height: 2px; }
-      .point_hero .sectionpadding .point p {
+        @media (min-width: 1200px) {
+          .point_hero .sectionpadding .point div {
+            width: 175px; } }
+      .point_hero .sectionpadding .point h6 {
         padding-left: 5px;
         color: #fff; }
+        @media (min-width: 768px) {
+          .point_hero .sectionpadding .point h6 {
+            margin-top: -7px; } }
+    .point_hero .sectionpadding h1 {
+      margin: -10px 0 0 -10px; }
+      @media (min-width: 768px) {
+        .point_hero .sectionpadding h1 {
+          grid-area: number;
+          margin: -80px 0 0 -10px; } }
+      @media (min-width: 992px) {
+        .point_hero .sectionpadding h1 {
+          margin: -80px 0 0 -20px; } }
+    .point_hero .sectionpadding .herosubheadercontainer {
+      margin-top: -20px; }
+      @media (min-width: 768px) {
+        .point_hero .sectionpadding .herosubheadercontainer {
+          grid-area: pointsubhead;
+          margin-top: -40px; } }
     .point_hero .sectionpadding .pointheroimg {
-      height: 320px; }
+      display: none;
+      margin-bottom: -310px;
+      opacity: .25;
+      height: 300px; }
       @media (min-width: 768px) {
         .point_hero .sectionpadding .pointheroimg {
-          height: 366px; } }
+          opacity: 1;
+          margin: 0;
+          display: block;
+          height: 366px;
+          grid-area: pointimg; } }
       @media (min-width: 992px) {
         .point_hero .sectionpadding .pointheroimg {
           height: 407px; } }
+    .point_hero .sectionpadding img {
+      display: none; }
+      @media (min-width: 768px) {
+        .point_hero .sectionpadding img {
+          display: block;
+          grid-area: arrow;
+          padding-top: 40px; } }
+    .point_hero .sectionpadding p {
+      padding: 10px 0 45px 0; }
+      @media (min-width: 768px) {
+        .point_hero .sectionpadding p {
+          grid-area: paragraph;
+          padding: 0; } }
+
+@media (min-width: 1200px) {
+  .QAcontainer {
+    background-color: #3B3B40;
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". qa ."; } }
+
+.QAcontainer .QA {
+  background-color: #3B3B40;
+  padding: 40px 17px; }
+  @media (min-width: 768px) {
+    .QAcontainer .QA {
+      display: grid;
+      grid-template-columns: 10% 20% 70%;
+      padding: 40px; } }
+  @media (min-width: 992px) {
+    .QAcontainer .QA {
+      padding: 40px 45px;
+      grid-template-columns: 8% auto 70%; } }
+  @media (min-width: 1200px) {
+    .QAcontainer .QA {
+      grid-area: qa; } }
+  .QAcontainer .QA h4 {
+    font-size: 2.8125rem; }
+    @media (min-width: 768px) {
+      .QAcontainer .QA h4 {
+        font-size: 3.125rem; } }
+    @media (min-width: 992px) {
+      .QAcontainer .QA h4 {
+        font-size: 3.75rem; } }
+  @media (min-width: 768px) {
+    .QAcontainer .QA .verticalline {
+      width: 141px;
+      height: 1px;
+      background-color: white;
+      margin-top: 50px; } }
+  @media (min-width: 992px) {
+    .QAcontainer .QA .verticalline {
+      width: 221px; } }
+  .QAcontainer .QA p {
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 80px 0 0 10px;
+    border-left: 1.45px solid #fff; }
+    @media (min-width: 768px) {
+      .QAcontainer .QA p {
+        font-size: 1.375rem;
+        border: none;
+        margin-top: -50px; } }
+    @media (min-width: 992px) {
+      .QAcontainer .QA p {
+        font-size: 1.5rem;
+        padding-left: 5px; } }
 
 #point2-container #hero_2 h1 {
   color: #0477BE; }
 
-#point2-container #hero_2 #herosubheadercontainer {
-  width: 200px; }
+#point2-container #hero_2 .herosubheadercontainer {
+  width: 50%; }
   @media (min-width: 768px) {
-    #point2-container #hero_2 #herosubheadercontainer {
-      width: 50%; } }
+    #point2-container #hero_2 .herosubheadercontainer {
+      width: 70%; } }
+  @media (min-width: 992px) {
+    #point2-container #hero_2 .herosubheadercontainer {
+      width: 700px; } }
 
 #point2-container #hero_2 #hero2-bgimg {
   background-image: url("../img/point2/hero2-img.jpg");
-  width: 100%; }
+  width: 100%;
+  background-size: 150%;
+  background-position: 40% 60%; }
 
-#point2-container #hero_2 img {
-  display: none; }
+#point2-container .QA h4 {
+  color: #0477BE; }

@@ -1,7 +1,7 @@
 /* =============
     Typography
 ============= */
-h1,h2,h3,h4,h5,p{
+h1,h2,h3,h4,h5, h6,p{
     padding: 0;
     margin: 0;
 }
@@ -32,8 +32,8 @@ h2{
         }
 
         @include lg{
-            font-size: rem-calc(84);
-            line-height: rem-calc(94);
+            font-size: rem-calc(80);
+            line-height: rem-calc(90);
         }
 }
 
@@ -44,7 +44,11 @@ h3{
 }
 
 h4{
-        font-family: 'Oswald', sans-serif;
+        font-family: 'din-condensed', sans-serif;
+}
+
+h6{
+    font-family: 'Roboto', sans-serif;
 }
 
 p{

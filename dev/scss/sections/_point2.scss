@@ -4,21 +4,31 @@
         h1{
             color: $blue;
         }
+        //
+        .herosubheadercontainer{
+            width: 50%;
 
-        #herosubheadercontainer{
-            width: 200px;
             @include md{
-                width: 50%;
+                width: 70%;
+            }
+            @include lg{
+                width: 700px;
             }
         }
 
         #hero2-bgimg{
             background-image: url('../img/point2/hero2-img.jpg');
             width: 100%;
+            background-size: 150%;
+            background-position: 40% 60%;
         }
 
-        img{
-            display: none;
+    }
+
+    .QA{
+        h4{
+            color: $blue;
         }
     }
+
 }
