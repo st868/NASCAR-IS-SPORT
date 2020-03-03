@@ -229,16 +229,156 @@
         }
     }
 
-
-
-
-
     }
 }
 
 //TEAM STRATEGIES
 
+#team_strategies{
+    background-color: $darkgrey;
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". instrategies .";
+    }
+    #team_strategies_container{
+        @include xl{
+            grid-area: instrategies;
+        }
 
+    #teamstrategiescontentcontainer{
+
+        @include md{
+            display: grid;
+            grid-template-columns: auto 60%;
+            grid-template-areas: "pittimes fastpg"
+                                "bluepit techpg"
+                                "nightpit togetherpg";
+
+            grid-row-gap: 60px;
+            grid-column-gap: 40px;
+            padding-top: 50px;
+        }
+
+        @include lg{
+            grid-template-columns: auto 71%;
+        }
+
+        .sectionsidepadding{
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            @include md{
+                padding-top: 0;
+            }
+        }
+
+        h5{
+            padding-bottom: 7px;
+            @include lg{
+                padding: 0 0 0 0;
+            }
+        }
+        #ts1{
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 1px solid $lightgrey;
+
+                p{
+                    padding-top: 30px;
+                font-size: rem-calc(13);
+                }
+
+            @include md{
+                border: none;
+                grid-area: pittimes;
+                padding: 0;
+                margin: 0 0 0 20%;
+            }
+        }
+        #ts2{
+            @include md{
+                grid-area: fastpg;
+            }
+        }
+        #ts3{
+            div{
+                background-image: url('../img/point2/pitcrew2.jpg');
+                width: 100%;
+                height: 340px;
+                background-size: cover;
+                @include md{
+                    height: 300px;
+                        margin: 0 0 0 48px;
+                }
+            }
+            @include md{
+                grid-area: bluepit;
+            }
+        }
+        #ts4{
+            border-bottom: 1px solid $lightgrey;
+            @include md{
+                border: none;
+                grid-area: techpg;
+            }
+        }
+        #ts5{
+            @include md{
+                border: none;
+                grid-area: togetherpg;
+            }
+        }
+        #ts6{
+            div{
+                background-image: url('../img/point2/pitcrew1.jpg');
+                width: 100%;
+                height: 340px;
+                background-size: cover;
+
+                @include md{
+                    height: 300px;
+                        margin: 0 0 0 48px;
+                }
+            }
+
+            @include md{
+                border: none;
+                grid-area: nightpit;
+            }
+        }
+    }
+
+    }
+}
+
+
+//tldr
+#tldr{
+    background-image: url('../img/point2/text-bg.jpg');
+    background-size: contain;
+    @include xl{
+        display: grid;
+        grid-template-areas: ". tldrcont .";
+        grid-template-columns: auto 1200px auto;
+    }
+    #tldrcontainer{
+
+        @include xl{
+            grid-area: tldrcont;
+        }
+        #tldrpgcontainer{
+            @include md{
+                width: 400px;
+                margin: 0 0 0 28%;
+            }
+            p{
+                font-size: rem-calc(24);
+                line-height: rem-calc(38);
+            }
+        }
+    }
+}
 
 
 
