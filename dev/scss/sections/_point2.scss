@@ -31,21 +31,111 @@
         }
     }
 
-
+//INTRODUCTION
     #intro_2{
         overflow: hidden;
         background-color: $darkgrey;
+    @include xl{
+        display: grid;
+        grid-template-columns:auto 1200px auto;
+        grid-template-areas: ". introtwo .";
+    }
 
+        #intro_2_container{
+            @include xl{
+                grid-area: introtwo;
+            }
+
+        .intro_p_width{
+            @include md{
+                width: 400px;
+            }
+        }
+
+        .likeafball{
+            @include md{ width: 400px;}
+        }
+
+        #versus2container{
+            @include md{
+                display: grid;
+                grid-template-columns: 50% auto;
+                grid-template-areas:
+                "fballtxt ndriver"
+                "fballplayer ndrivertxt";
+            }
+
+
+
+            #fball2text{
+                @include md{
+                    grid-area: fballtxt;
+                    margin-top: 30px;
+                }
+            }
         #point2fballplayer{
-            width: 500px;
-            padding: 10px 0;
+            img{
+                width: 530px;
+                padding: 10px 0;
+
+                @include lg{
+                    width: 590px;
+                }
+            }
+
+            @include md{
+                grid-area: fballplayer;
+                margin-top: -240px;
+
+            }
+
+        }
+
+        #ndriver2text{
+            @include md{
+                grid-area: ndrivertxt;
+
+            }
         }
 
         #point2nascardriver{
-            width: 500px;
-            padding: 10px 0;
+            img{
+                width: 460px;
+                padding: 10px 0;
+                @include lg{
+                    width: 540px;
+                }
+            }
+            @include md{
+                grid-area: ndriver;
+                margin-left: -50px;
+            }
+
         }
     }
+    }
+}
+
+//INDIVIDUAL strategies
+
+#individual_strategies{
+    background-color: $darkgrey;
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". instrategies .";
+    }
+    #individual_strategies_container{
+        @include xl{
+            grid-area: instrategies;
+        }
+    }
+}
+
+//TEAM STRATEGIES
+
+
+
 
 
 }
