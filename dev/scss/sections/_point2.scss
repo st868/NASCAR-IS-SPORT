@@ -129,6 +129,110 @@
         @include xl{
             grid-area: instrategies;
         }
+
+    #individualstrategiescontentcontainer{
+
+        @include md{
+            display: grid;
+            grid-template-columns: auto 60%;
+            grid-template-areas: "drivetimes drivepg"
+                                "carsontracktwo carsontrackpg"
+                                "interiortwo interiorpg";
+
+            grid-row-gap: 60px;
+            grid-column-gap: 40px;
+            padding-top: 50px;
+        }
+
+        @include lg{
+            grid-template-columns: auto 71%;
+        }
+
+        .sectionsidepadding{
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            @include md{
+                padding-top: 0;
+            }
+        }
+
+        h5{
+            padding-bottom: 7px;
+            @include lg{
+                padding: 0 0 0 0;
+            }
+        }
+        #is1{
+            display: flex;
+            justify-content: center;
+            padding: 30px 0;
+            border-bottom: 1px solid $lightgrey;
+
+            @include md{
+                border: none;
+                grid-area: drivetimes;
+                padding: 0;
+                margin: 0 0 0 20%;
+            }
+        }
+        #is2{
+            @include md{
+                grid-area: drivepg;
+            }
+        }
+        #is3{
+            div{
+                background-image: url('../img/point2/carsontrack.jpg');
+                width: 100%;
+                height: 340px;
+                background-size: cover;
+                @include md{
+                    height: 300px;
+                        margin: 0 0 0 48px;
+                }
+            }
+            @include md{
+                grid-area: carsontracktwo;
+            }
+        }
+        #is4{
+            border-bottom: 1px solid $lightgrey;
+            @include md{
+                border: none;
+                grid-area: carsontrackpg;
+            }
+        }
+        #is5{
+            @include md{
+                border: none;
+                grid-area: interiorpg;
+            }
+        }
+        #is6{
+            div{
+                background-image: url('../img/point2/interior.jpg');
+                width: 100%;
+                height: 340px;
+                background-size: cover;
+
+                @include md{
+                    height: 300px;
+                        margin: 0 0 0 48px;
+                }
+            }
+
+            @include md{
+                border: none;
+                grid-area: interiortwo;
+            }
+        }
+    }
+
+
+
+
+
     }
 }
 
