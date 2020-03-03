@@ -369,6 +369,13 @@ p {
   font-family: 'Roboto', sans-serif;
   color: #c0c0c0; }
 
+.uk-accordion-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9375rem;
+  color: #c0c0c0;
+  padding-top: 4px;
+  opacity: .5; }
+
 /* =============
     Buttons
 ============= */
@@ -550,14 +557,26 @@ textarea {
         font-size: 1.5rem;
         padding-left: 5px; } }
 
-.sectionpadding {
-  padding: 47px 17px 47px 52px; }
+.sectionsidepadding {
+  padding: 0 17px 0 52px; }
   @media (min-width: 768px) {
-    .sectionpadding {
-      padding: 68px 48px; } }
+    .sectionsidepadding {
+      padding: 0 48px; } }
   @media (min-width: 992px) {
-    .sectionpadding {
-      padding: 60px 42px; } }
+    .sectionsidepadding {
+      padding: 0 42px; } }
+
+.sectiontopbottompadding {
+  padding: 47px 0; }
+  @media (min-width: 768px) {
+    .sectiontopbottompadding {
+      padding: 68px 0; } }
+  @media (min-width: 992px) {
+    .sectiontopbottompadding {
+      padding: 60px 0; } }
+
+#point2-container .QA h4 {
+  color: #0477BE; }
 
 #point2-container #hero_2 h1 {
   color: #0477BE; }
@@ -577,5 +596,12 @@ textarea {
   background-size: 150%;
   background-position: 40% 60%; }
 
-#point2-container .QA h4 {
-  color: #0477BE; }
+#point2-container #intro_2 {
+  overflow: hidden;
+  background-color: #1C1C1E; }
+  #point2-container #intro_2 #point2fballplayer {
+    width: 500px;
+    padding: 10px 0; }
+  #point2-container #intro_2 #point2nascardriver {
+    width: 500px;
+    padding: 10px 0; }

@@ -55,3 +55,11 @@ p{
     font-family: 'Roboto', sans-serif;
     color: $lightgrey;
 }
+
+.uk-accordion-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: rem-calc(15);
+    color: $lightgrey;
+    padding-top: 4px;
+    opacity: .5;
+}

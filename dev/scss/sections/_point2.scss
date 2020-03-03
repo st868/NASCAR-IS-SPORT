@@ -1,4 +1,11 @@
 #point2-container{
+
+    .QA{
+        h4{
+            color: $blue;
+        }
+    }
+
     #hero_2{
 
         h1{
@@ -22,13 +29,23 @@
             background-size: 150%;
             background-position: 40% 60%;
         }
-
     }
 
-    .QA{
-        h4{
-            color: $blue;
+
+    #intro_2{
+        overflow: hidden;
+        background-color: $darkgrey;
+
+        #point2fballplayer{
+            width: 500px;
+            padding: 10px 0;
+        }
+
+        #point2nascardriver{
+            width: 500px;
+            padding: 10px 0;
         }
     }
+
 
 }

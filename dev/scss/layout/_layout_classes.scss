@@ -127,7 +127,6 @@
 
 
 .QAcontainer{
-
     @include xl{
         background-color: $qagrey;
         display: grid;
@@ -198,13 +197,24 @@
 }
 
 //THIS IS FOR ADDING PADDING TO ANY ELEMENT THAT YOU NEED. SEE POINT 2'S PAGE FOR EXAMPLE.
-.sectionpadding{
-    padding: 47px 17px 47px 52px;
+.sectionsidepadding{
+    padding: 0 17px 0 52px;
 
     @include md{
-        padding: 68px 48px;
+        padding: 0 48px;
     }
     @include lg{
-        padding: 60px 42px;
+        padding: 0 42px;
+    }
+}
+
+.sectiontopbottompadding{
+    padding: 47px 0;
+
+    @include md{
+        padding: 68px 0;
+    }
+    @include lg{
+        padding: 60px 0;
     }
 }
