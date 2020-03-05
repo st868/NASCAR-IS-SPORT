@@ -540,6 +540,14 @@
 		"oAP": "/deploy/home.html",
 		"oF": 2
 		},
+	"/dev/html/home/video.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/html/home/video.html",
+		"oF": 0
+		},
 	"/dev/html/navigation/navigation-bg.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -584,7 +592,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/html/subfooter1.html",
 		"oF": 0
 		},
