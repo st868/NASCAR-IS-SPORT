@@ -588,17 +588,10 @@ textarea {
 
 #backgroundvideocontainer {
   width: 100%; }
-  #backgroundvideocontainer #backgroundoverlay {
-    width: 100%;
-    background-color: #1C1C1E;
-    opacity: .7;
-    height: 1200px;
-    position: absolute;
-    z-index: 1000000; }
   #backgroundvideocontainer #video-container {
-    position: relative;
-    z-index: -1; }
+    position: relative; }
     #backgroundvideocontainer #video-container video {
+      filter: brightness(35%);
       width: 100%; }
 
 #nascarhome {
@@ -611,7 +604,41 @@ textarea {
   #nascarhome #nascarhomecontainer {
     grid-area: nascarhome; }
     #nascarhome #nascarhomecontainer #homehero {
-      width: 100%; }
+      position: relative;
+      padding: 40px 17px; }
+      @media (min-width: 768px) {
+        #nascarhome #nascarhomecontainer #homehero {
+          padding: 0 40px;
+          margin-top: -300px; } }
+      @media (min-width: 992px) {
+        #nascarhome #nascarhomecontainer #homehero {
+          margin-top: -500px;
+          padding: 100px 40px; } }
+      @media (min-width: 1200px) {
+        #nascarhome #nascarhomecontainer #homehero {
+          margin-top: -700px; } }
+      @media (min-width: 768px) {
+        #nascarhome #nascarhomecontainer #homehero #homehero_container h2 {
+          font-size: 2.5rem;
+          line-height: 2.8125rem; } }
+      @media (min-width: 992px) {
+        #nascarhome #nascarhomecontainer #homehero #homehero_container h2 {
+          font-size: 3.75rem;
+          line-height: 4.0625rem; } }
+      @media (min-width: 1200px) {
+        #nascarhome #nascarhomecontainer #homehero #homehero_container h2 {
+          font-size: 5.25rem;
+          line-height: 5.25rem; } }
+      #nascarhome #nascarhomecontainer #homehero #homehero_container p {
+        padding-bottom: 10px; }
+        @media (min-width: 992px) {
+          #nascarhome #nascarhomecontainer #homehero #homehero_container p {
+            font-size: 1.25rem; } }
+      #nascarhome #nascarhomecontainer #homehero #homehero_container img {
+        padding: 30px 0 0 0; }
+      @media (min-width: 768px) {
+        #nascarhome #nascarhomecontainer #homehero #homehero_container {
+          width: 70%; } }
     #nascarhome #nascarhomecontainer #quicklinks {
       padding: 40px 0;
       border-bottom: 1px solid #c0c0c0; }
