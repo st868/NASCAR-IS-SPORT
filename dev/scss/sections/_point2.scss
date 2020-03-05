@@ -383,3 +383,79 @@
 
 
 }
+
+#subfooter2{
+    background-color: $blue;
+    @include md{
+        display: grid;
+        grid-template-columns: auto 600px auto;
+        grid-template-areas: ". subfootertwo .";
+    }
+
+ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    @include xl{
+        grid-area: subfootertwo;
+    }
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+    a:link, a:visited{
+        color: white;
+        transition: .25s;
+    }
+
+    a:hover, a:active{
+        text-decoration: underline;
+        color: white;
+        font-weight: 500;
+
+                }
+
+
+    span{
+        display: none;
+        @include md{
+            display: block;
+        }
+    }
+
+    li{
+        padding: 0 0 30px 0;
+
+        @include md{
+            padding: 50px 0 80px 0;
+        }
+    }
+    #whyisnascarasport2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            transform: rotate(90deg);
+        }
+    }
+
+    #itrequiresstrength2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            transform: rotate(-90deg);
+        }
+    }
+
+
+}
+}

@@ -45,6 +45,112 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/darkarrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/darkarrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/home/Daytona.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/home/Daytona.mp4",
+		"oF": 0
+		},
+	"/deploy/img/logos/bleacher.png": {
+		"ft": 32768,
+		"iS": 5593,
+		"oA": 0,
+		"oAP": "/deploy/img/logos/bleacher.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/logos/cbs.png": {
+		"ft": 32768,
+		"iS": 4025,
+		"oA": 0,
+		"oAP": "/deploy/img/logos/cbs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/logos/foxsports.png": {
+		"ft": 32768,
+		"iS": 9738,
+		"oA": 0,
+		"oAP": "/deploy/img/logos/foxsports.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/logos/msn.png": {
+		"ft": 32768,
+		"iS": 2761,
+		"oA": 0,
+		"oAP": "/deploy/img/logos/msn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/logos/nbc.png": {
+		"ft": 32768,
+		"iS": 5143,
+		"oA": 0,
+		"oAP": "/deploy/img/logos/nbc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/logos/sportingnews.png": {
+		"ft": 32768,
+		"iS": 4453,
+		"oA": 0,
+		"oAP": "/deploy/img/logos/sportingnews.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/logos/usatoday.png": {
+		"ft": 32768,
+		"iS": 10761,
+		"oA": 0,
+		"oAP": "/deploy/img/logos/usatoday.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/logos/yahoo.png": {
+		"ft": 32768,
+		"iS": 3170,
+		"oA": 0,
+		"oAP": "/deploy/img/logos/yahoo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/point2/avgtime.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -274,6 +380,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/whitearrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/whitearrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/js/header-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -409,12 +525,28 @@
 		"oAP": "/deploy/point3.html",
 		"oF": 2
 		},
-	"/dev/html/sub-footer.kit": {
+	"/dev/html/subfooter1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/html/subfooter1.html",
+		"oF": 0
+		},
+	"/dev/html/subfooter2.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/html/sub-footer.html",
+		"oAP": "/dev/html/subfooter2.html",
+		"oF": 0
+		},
+	"/dev/html/subfooter3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/html/subfooter3.html",
 		"oF": 0
 		},
 	"/dev/js/burger/burger.js": {
@@ -746,6 +878,16 @@
 		"oA": 0,
 		"oAP": "/NASCAR-IS-A-SPORT/.gitattributes",
 		"oF": 0
+		},
+	"/NASCAR-IS-A-SPORT/track-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/NASCAR-IS-A-SPORT/track-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/node_modules": {
 		"ft": 65536,

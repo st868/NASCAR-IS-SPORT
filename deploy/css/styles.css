@@ -586,6 +586,184 @@ textarea {
     .sectiontopbottompadding {
       padding: 60px 0; } }
 
+#nascarhome {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #nascarhome {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". nascarhome ."; } }
+  #nascarhome #nascarhomecontainer {
+    grid-area: nascarhome; }
+    #nascarhome #nascarhomecontainer #quicklinks {
+      padding: 40px 0;
+      border-bottom: 1px solid #c0c0c0; }
+      @media (min-width: 768px) {
+        #nascarhome #nascarhomecontainer #quicklinks {
+          padding: 40px 0;
+          margin: 0 48px; } }
+      @media (min-width: 992px) {
+        #nascarhome #nascarhomecontainer #quicklinks {
+          padding: 40px 0;
+          margin: 0 42px; } }
+      @media (min-width: 768px) {
+        #nascarhome #nascarhomecontainer #quicklinks ul {
+          width: 60%; } }
+      #nascarhome #nascarhomecontainer #quicklinks ul a:link, #nascarhome #nascarhomecontainer #quicklinks ul a:visited {
+        text-decoration: none;
+        transition: .25s; }
+      #nascarhome #nascarhomecontainer #quicklinks ul a:hover img, #nascarhome #nascarhomecontainer #quicklinks ul a:active img {
+        transform: translateX(5px); }
+      #nascarhome #nascarhomecontainer #quicklinks ul li {
+        margin-bottom: 10px;
+        padding: 20px; }
+        @media (min-width: 768px) {
+          #nascarhome #nascarhomecontainer #quicklinks ul li {
+            padding: 40px 20px;
+            margin-bottom: 20px; } }
+        #nascarhome #nascarhomecontainer #quicklinks ul li img {
+          width: 150px; }
+          @media (min-width: 768px) {
+            #nascarhome #nascarhomecontainer #quicklinks ul li img {
+              width: 300px;
+              margin-bottom: -30px; } }
+      #nascarhome #nascarhomecontainer #quicklinks ul #whatisasportlink {
+        background-color: #F9D159; }
+        #nascarhome #nascarhomecontainer #quicklinks ul #whatisasportlink h5 {
+          color: #1C1C1E; }
+        #nascarhome #nascarhomecontainer #quicklinks ul #whatisasportlink div {
+          padding-top: 10px;
+          display: flex;
+          justify-content: flex-end; }
+          #nascarhome #nascarhomecontainer #quicklinks ul #whatisasportlink div p {
+            color: #1C1C1E;
+            padding-right: 10px; }
+      #nascarhome #nascarhomecontainer #quicklinks ul #requiresstrategylink {
+        background-color: #0477BE; }
+        #nascarhome #nascarhomecontainer #quicklinks ul #requiresstrategylink div {
+          padding-top: 10px;
+          display: flex;
+          justify-content: flex-end; }
+          #nascarhome #nascarhomecontainer #quicklinks ul #requiresstrategylink div p {
+            color: white;
+            padding-right: 10px; }
+      #nascarhome #nascarhomecontainer #quicklinks ul #requiresstrengthlink {
+        background-color: #DD002A; }
+        #nascarhome #nascarhomecontainer #quicklinks ul #requiresstrengthlink div {
+          padding-top: 10px;
+          display: flex;
+          justify-content: flex-end; }
+          #nascarhome #nascarhomecontainer #quicklinks ul #requiresstrengthlink div p {
+            color: white;
+            padding-right: 10px; }
+    #nascarhome #nascarhomecontainer #recognition {
+      padding: 40px 17px 40px 40px;
+      border-bottom: 1px solid #c0c0c0; }
+      @media (min-width: 768px) {
+        #nascarhome #nascarhomecontainer #recognition {
+          padding: 40px 0;
+          margin: 0 48px; } }
+      @media (min-width: 992px) {
+        #nascarhome #nascarhomecontainer #recognition {
+          padding: 40px 0;
+          margin: 0 42px; } }
+      #nascarhome #nascarhomecontainer #recognition #recognitionwidth {
+        padding-bottom: 40px; }
+        @media (min-width: 768px) {
+          #nascarhome #nascarhomecontainer #recognition #recognitionwidth {
+            width: 450px; } }
+      #nascarhome #nascarhomecontainer #recognition #companies {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 40px; }
+        @media (min-width: 768px) {
+          #nascarhome #nascarhomecontainer #recognition #companies {
+            grid-template-columns: auto auto auto auto;
+            grid-column-gap: 40px; } }
+        @media (min-width: 992px) {
+          #nascarhome #nascarhomecontainer #recognition #companies {
+            grid-column-gap: 60px; } }
+        #nascarhome #nascarhomecontainer #recognition #companies li {
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+    #nascarhome #nascarhomecontainer #testimonials {
+      border-bottom: 1px solid #c0c0c0; }
+      #nascarhome #nascarhomecontainer #testimonials .testimonialheader {
+        margin-bottom: 60px; }
+      #nascarhome #nascarhomecontainer #testimonials #testimonialgallery ul li {
+        text-align: center; }
+        #nascarhome #nascarhomecontainer #testimonials #testimonialgallery ul li h5 {
+          font-family: 'Oswald', sans-serif;
+          font-weight: 400;
+          font-size: 1.125rem;
+          padding: 0 60px; }
+          @media (min-width: 768px) {
+            #nascarhome #nascarhomecontainer #testimonials #testimonialgallery ul li h5 {
+              font-size: 1.5rem; } }
+          @media (min-width: 992px) {
+            #nascarhome #nascarhomecontainer #testimonials #testimonialgallery ul li h5 {
+              font-size: 2rem; } }
+        #nascarhome #nascarhomecontainer #testimonials #testimonialgallery ul li p {
+          padding-top: 5px;
+          font-size: 1rem; }
+          @media (min-width: 768px) {
+            #nascarhome #nascarhomecontainer #testimonials #testimonialgallery ul li p {
+              font-size: 1.25rem; } }
+      @media (min-width: 768px) {
+        #nascarhome #nascarhomecontainer #testimonials #testimonialgallery ul .quote div {
+          padding: 50px 0; } }
+      @media (min-width: 992px) {
+        #nascarhome #nascarhomecontainer #testimonials #testimonialgallery ul .quote div {
+          padding: 150px 0; } }
+    #nascarhome #nascarhomecontainer #signup .sectionsidepadding {
+      padding-bottom: 40px; }
+    #nascarhome #nascarhomecontainer #signup .contactform {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      #nascarhome #nascarhomecontainer #signup .contactform form {
+        width: 90%; }
+        #nascarhome #nascarhomecontainer #signup .contactform form label {
+          display: block;
+          font-family: 'Roboto', sans-serif;
+          color: #c0c0c0;
+          margin-bottom: 5px; }
+        @media (min-width: 768px) {
+          #nascarhome #nascarhomecontainer #signup .contactform form {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 20px; } }
+      #nascarhome #nascarhomecontainer #signup .contactform .feedback-input {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 0.875rem;
+        background-color: transparent;
+        border: 1px solid white;
+        padding: 13px;
+        margin-bottom: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        outline: 0; }
+      #nascarhome #nascarhomecontainer #signup .contactform .button {
+        display: flex;
+        justify-content: center; }
+        @media (min-width: 768px) {
+          #nascarhome #nascarhomecontainer #signup .contactform .button {
+            display: block;
+            padding-top: 22.5px; } }
+        #nascarhome #nascarhomecontainer #signup .contactform .button button {
+          font-family: 'Oswald', sans-serif;
+          background-color: white;
+          color: #1C1C1E;
+          padding: 10px 40px;
+          border: none; }
+          @media (min-width: 768px) {
+            #nascarhome #nascarhomecontainer #signup .contactform .button button {
+              padding: 13px 45px; } }
+
 #point2-container .QA h4 {
   color: #0477BE; }
 
@@ -841,3 +1019,55 @@ textarea {
   #point2-container #tldr #tldrcontainer #tldrpgcontainer p {
     font-size: 1.5rem;
     line-height: 2.375rem; }
+
+#subfooter2 {
+  background-color: #0477BE; }
+  @media (min-width: 768px) {
+    #subfooter2 {
+      display: grid;
+      grid-template-columns: auto 600px auto;
+      grid-template-areas: ". subfootertwo ."; } }
+  #subfooter2 ul {
+    display: grid;
+    grid-template-columns: auto auto; }
+    @media (min-width: 1200px) {
+      #subfooter2 ul {
+        grid-area: subfootertwo; } }
+    #subfooter2 ul a {
+      color: white;
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif; }
+    #subfooter2 ul p {
+      text-align: center;
+      color: white; }
+    #subfooter2 ul a:link, #subfooter2 ul a:visited {
+      color: white;
+      transition: .25s; }
+    #subfooter2 ul a:hover, #subfooter2 ul a:active {
+      text-decoration: underline;
+      color: white;
+      font-weight: 500; }
+    #subfooter2 ul span {
+      display: none; }
+      @media (min-width: 768px) {
+        #subfooter2 ul span {
+          display: block; } }
+    #subfooter2 ul li {
+      padding: 0 0 30px 0; }
+      @media (min-width: 768px) {
+        #subfooter2 ul li {
+          padding: 50px 0 80px 0; } }
+    #subfooter2 ul #whyisnascarasport2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      #subfooter2 ul #whyisnascarasport2 img {
+        transform: rotate(90deg); }
+    #subfooter2 ul #itrequiresstrength2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      #subfooter2 ul #itrequiresstrength2 img {
+        transform: rotate(-90deg); }
