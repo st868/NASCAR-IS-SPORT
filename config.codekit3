@@ -45,6 +45,72 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/point1/Point1_1.jpg": {
+		"ft": 16384,
+		"iS": 1141298,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point1/Point1_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point1/Point1_2.jpg": {
+		"ft": 16384,
+		"iS": 345190,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point1/Point1_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point1/Point1_3.jpg": {
+		"ft": 16384,
+		"iS": 262602,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point1/Point1_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point1/Point1_4.jpg": {
+		"ft": 16384,
+		"iS": 85622,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point1/Point1_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point1/Point1_5.jpg": {
+		"ft": 16384,
+		"iS": 2147284,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point1/Point1_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point1/Point1_6.jpg": {
+		"ft": 16384,
+		"iS": 358638,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point1/Point1_6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/point2/carsontrack.jpg": {
 		"ft": 16384,
 		"iS": 210705,
@@ -729,14 +795,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/NASCAR-IS-A-SPORT/.gitattributes": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/NASCAR-IS-A-SPORT/.gitattributes",
-		"oF": 0
-		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -766,7 +824,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 604864846.70263803,
-	"displayValue": "NASCARISSPORT",
+	"displayValue": "NASCAR-IS-SPORT",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pink",
 	"iconImageWasSetByUser": 0

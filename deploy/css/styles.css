@@ -575,6 +575,88 @@ textarea {
     .sectiontopbottompadding {
       padding: 60px 0; } }
 
+#point1-container .QA h4 {
+  color: #F9D159; }
+
+#point1-container #hero_1 h1 {
+  color: #F9D159; }
+
+#point1-container #hero_1 .herosubheadercontainer {
+  width: 50%; }
+  @media (min-width: 768px) {
+    #point1-container #hero_1 .herosubheadercontainer {
+      width: 70%; } }
+  @media (min-width: 992px) {
+    #point1-container #hero_1 .herosubheadercontainer {
+      width: 700px; } }
+
+#point1-container #hero_1 #hero1-bgimg {
+  background-image: url("../img/point1/hero2-img.jpg");
+  width: 100%;
+  background-size: 150%;
+  background-position: 40% 60%; }
+
+#point1-container #intro_1 {
+  overflow: hidden;
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point1-container #intro_1 {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". introtwo ."; } }
+  @media (min-width: 1200px) {
+    #point1-container #intro_1 #intro_1_container {
+      grid-area: introtwo; } }
+  @media (min-width: 768px) {
+    #point1-container #intro_1 #intro_1_container .intro_p_width {
+      width: 400px; } }
+  @media (min-width: 768px) {
+    #point1-container #intro_1 #intro_1_container .likeafball {
+      width: 400px; } }
+  @media (min-width: 768px) {
+    #point1-container #intro_1 #intro_1_container #versus2container {
+      display: grid;
+      grid-template-columns: 50% auto;
+      grid-template-areas: "fballtxt ndriver" "fballplayer ndrivertxt"; } }
+  @media (min-width: 768px) {
+    #point1-container #intro_1 #intro_1_container #versus2container #fball2text {
+      grid-area: fballtxt;
+      margin-top: 30px; } }
+  #point1-container #intro_1 #intro_1_container #versus2container #point2fballplayer img {
+    width: 530px;
+    padding: 10px 0; }
+    @media (min-width: 992px) {
+      #point1-container #intro_1 #intro_1_container #versus2container #point2fballplayer img {
+        width: 590px; } }
+  @media (min-width: 768px) {
+    #point1-container #intro_1 #intro_1_container #versus2container #point2fballplayer {
+      grid-area: fballplayer;
+      margin-top: -240px; } }
+  @media (min-width: 768px) {
+    #point1-container #intro_1 #intro_1_container #versus2container #ndriver2text {
+      grid-area: ndrivertxt; } }
+  #point1-container #intro_1 #intro_1_container #versus2container #point2nascardriver img {
+    width: 460px;
+    padding: 10px 0; }
+    @media (min-width: 992px) {
+      #point1-container #intro_1 #intro_1_container #versus2container #point2nascardriver img {
+        width: 540px; } }
+  @media (min-width: 768px) {
+    #point1-container #intro_1 #intro_1_container #versus2container #point2nascardriver {
+      grid-area: ndriver;
+      margin-left: -50px; } }
+
+#point1-container #individual_strategies {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point1-container #individual_strategies {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". instrategies ."; } }
+  @media (min-width: 1200px) {
+    #point1-container #individual_strategies #individual_strategies_container {
+      grid-area: instrategies; } }
+
 #point2-container .QA h4 {
   color: #0477BE; }
 
