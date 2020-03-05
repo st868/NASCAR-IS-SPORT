@@ -40,7 +40,7 @@
         }
         @include lg{
             grid-gap: 40px;
-            grid-template-columns: "35% 65%";
+            ;
         }
     }
     #hero3-bgimg{
@@ -129,6 +129,7 @@
                 padding: 15px;
             }
             h4{
+                color: white;
                 grid-area: title;
             }
             #labelA{
@@ -141,11 +142,14 @@
                 grid-area: labelC;
             }
             #car{
+                color: white;
                 grid-area:logoA;
             }
             #flag{
+                color: white;
                 grid-area:logoB;
             }#spaceShuttle{
+                color: white;
                 grid-area:logoC;
             }
         }

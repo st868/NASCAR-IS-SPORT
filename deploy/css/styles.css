@@ -687,8 +687,7 @@ textarea {
       grid-template-areas: "small big"; } }
   @media (min-width: 992px) {
     #point3-container .gridMain {
-      grid-gap: 40px;
-      grid-template-columns: "35% 65%"; } }
+      grid-gap: 40px; } }
   #point3-container #hero3-bgimg {
     background-image: url("../img/point3/hero.jpg");
     background-position: center;
@@ -744,6 +743,7 @@ textarea {
     #point3-container #physics #physicsImage p {
       padding: 15px; }
     #point3-container #physics #physicsImage h4 {
+      color: white;
       grid-area: title; }
     #point3-container #physics #physicsImage #labelA {
       grid-area: labelA; }
@@ -752,10 +752,13 @@ textarea {
     #point3-container #physics #physicsImage #labelC {
       grid-area: labelC; }
     #point3-container #physics #physicsImage #car {
+      color: white;
       grid-area: logoA; }
     #point3-container #physics #physicsImage #flag {
+      color: white;
       grid-area: logoB; }
     #point3-container #physics #physicsImage #spaceShuttle {
+      color: white;
       grid-area: logoC; }
   #point3-container #insideTheCar #insideTheCarCopy h3 {
     display: block;
