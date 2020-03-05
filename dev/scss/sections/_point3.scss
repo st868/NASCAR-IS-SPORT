@@ -1,5 +1,5 @@
 #point3-container{
-    max-width: 1400px;
+    // max-width: 1400px;
     .QAcontainer{
         h4{
             color: $red;
@@ -53,12 +53,29 @@
         height: 500px;
     }
 
-    #intro{
+    #hero_3{
+        border-bottom: 1px solid $lightgrey;
+    }
+
+
+#intro3xlcontainer{
+    background-color: $darkgrey;
+    @include xl{
+        display: grid;
+        grid-template-columns:auto 1200px auto;
+        grid-template-areas: ". introthree .";
+    }
+    #intro3xl{
+        @include xl{
+               grid-area: introthree;
+           }
+    #intro3{
         #introCopy{
             h3{
                 padding-bottom: 17px;
             }
         }
+        
         #introImage{
             div{
                 height: 30vh;
@@ -74,7 +91,23 @@
             }
         }
     }
+        }
+    }
+
+    #trainingxlwidthcontainer{
+        background-color: $darkgrey;
+        @include xl{
+            display: grid;
+            grid-template-columns:auto 1200px auto;
+            grid-template-areas: ". training .";
+        }
+        #trainingxlwidth{
+            @include xl{
+                   grid-area: training;
+               }
     #training{
+
+
         #trainingCopy{
             h3{
                 display: block;
@@ -96,8 +129,24 @@
                     margin-top: 0;
                 }
             }
+
+        }
         }
     }
+    }
+
+    #physicsxlcontainer{
+        background-color: $darkgrey;
+        @include xl{
+            display: grid;
+            grid-template-columns: auto 1200px auto;
+            grid-template-areas: ". physics .";
+        }
+        #physicscontainer{
+            @include xl{
+                grid-area: physics;
+            }
+
     #physics{
         #physicsCopy{
             h3{
@@ -157,7 +206,8 @@
             }
         }
     }
-
+}
+}
 
     #biganimation3container{
     background-image: url('../img/point3/text3_bg.jpg');
@@ -255,7 +305,17 @@
         }
     }
 
-
+#insidethecarxlcontainer{
+    background-color: $darkgrey;
+    @include xl{
+        display: grid;
+        grid-template-columns:auto 1200px auto;
+        grid-template-areas: ". insidethecar .";
+    }
+    #insidethecarxl{
+        @include xl{
+               grid-area: insidethecar;
+           }
     #insideTheCar{
         #insideTheCarCopy{
             h3{
@@ -280,4 +340,6 @@
             }
         }
     }
+}
+}
 }

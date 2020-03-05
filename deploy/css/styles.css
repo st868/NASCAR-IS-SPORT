@@ -1209,47 +1209,68 @@ textarea {
       #subfooter2 ul #itrequiresstrength2 img {
         transform: rotate(-90deg); }
 
-#point3-container {
-  max-width: 1400px; }
-  #point3-container .QAcontainer h4 {
-    color: #DD002A; }
-  #point3-container .sectionBase {
-    padding: 47px 17px 47px 52px;
-    background-color: #1C1C1E; }
-    @media (min-width: 768px) {
-      #point3-container .sectionBase {
-        padding: 68px 48; } }
-    @media (min-width: 992px) {
-      #point3-container .sectionBase {
-        padding: 60px 42; } }
-  #point3-container .titlePadding {
-    padding-bottom: 17px; }
-  #point3-container .caption {
-    padding-top: 10px;
-    font-size: 0.75rem; }
-  #point3-container .bigSection {
-    grid-area: big; }
-  #point3-container .smallSection {
-    grid-area: small; }
+#point3-container .QAcontainer h4 {
+  color: #DD002A; }
+
+#point3-container .sectionBase {
+  padding: 47px 17px 47px 52px;
+  background-color: #1C1C1E; }
   @media (min-width: 768px) {
-    #point3-container .gridMain {
-      display: grid;
-      grid-gap: 17px;
-      grid-template-columns: "40% 60%";
-      grid-template-areas: "small big"; } }
+    #point3-container .sectionBase {
+      padding: 68px 48; } }
   @media (min-width: 992px) {
-    #point3-container .gridMain {
-      grid-gap: 40px; } }
-  #point3-container h1 {
-    color: #DD002A; }
-  #point3-container #hero3-bgimg {
-    background-image: url("../img/point3/hero.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 500px; }
-  #point3-container #intro #introCopy h3 {
+    #point3-container .sectionBase {
+      padding: 60px 42; } }
+
+#point3-container .titlePadding {
+  padding-bottom: 17px; }
+
+#point3-container .caption {
+  padding-top: 10px;
+  font-size: 0.75rem; }
+
+#point3-container .bigSection {
+  grid-area: big; }
+
+#point3-container .smallSection {
+  grid-area: small; }
+
+@media (min-width: 768px) {
+  #point3-container .gridMain {
+    display: grid;
+    grid-gap: 17px;
+    grid-template-columns: "40% 60%";
+    grid-template-areas: "small big"; } }
+
+@media (min-width: 992px) {
+  #point3-container .gridMain {
+    grid-gap: 40px; } }
+
+#point3-container h1 {
+  color: #DD002A; }
+
+#point3-container #hero3-bgimg {
+  background-image: url("../img/point3/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px; }
+
+#point3-container #hero_3 {
+  border-bottom: 1px solid #c0c0c0; }
+
+#point3-container #intro3xlcontainer {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point3-container #intro3xlcontainer {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". introthree ."; } }
+  @media (min-width: 1200px) {
+    #point3-container #intro3xlcontainer #intro3xl {
+      grid-area: introthree; } }
+  #point3-container #intro3xlcontainer #intro3xl #intro3 #introCopy h3 {
     padding-bottom: 17px; }
-  #point3-container #intro #introImage div {
+  #point3-container #intro3xlcontainer #intro3xl #intro3 #introImage div {
     height: 30vh;
     width: 100%;
     margin-top: 52px;
@@ -1258,12 +1279,23 @@ textarea {
     background-position: center;
     background-size: cover; }
     @media (min-width: 768px) {
-      #point3-container #intro #introImage div {
+      #point3-container #intro3xlcontainer #intro3xl #intro3 #introImage div {
         margin-top: 0; } }
-  #point3-container #training #trainingCopy h3 {
+
+#point3-container #trainingxlwidthcontainer {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point3-container #trainingxlwidthcontainer {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". training ."; } }
+  @media (min-width: 1200px) {
+    #point3-container #trainingxlwidthcontainer #trainingxlwidth {
+      grid-area: training; } }
+  #point3-container #trainingxlwidthcontainer #trainingxlwidth #training #trainingCopy h3 {
     display: block;
     padding-bottom: 17px; }
-  #point3-container #training #trainingImage div {
+  #point3-container #trainingxlwidthcontainer #trainingxlwidth #training #trainingImage div {
     height: 30vh;
     width: 100%;
     margin-top: 52px;
@@ -1272,12 +1304,23 @@ textarea {
     background-position: center;
     background-size: cover; }
     @media (min-width: 768px) {
-      #point3-container #training #trainingImage div {
+      #point3-container #trainingxlwidthcontainer #trainingxlwidth #training #trainingImage div {
         margin-top: 0; } }
-  #point3-container #physics #physicsCopy h3 {
+
+#point3-container #physicsxlcontainer {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point3-container #physicsxlcontainer {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". physics ."; } }
+  @media (min-width: 1200px) {
+    #point3-container #physicsxlcontainer #physicscontainer {
+      grid-area: physics; } }
+  #point3-container #physicsxlcontainer #physicscontainer #physics #physicsCopy h3 {
     display: block;
     padding-bottom: 17px; }
-  #point3-container #physics #physicsImage {
+  #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage {
     margin-top: 52px;
     text-align: center;
     width: 100%;
@@ -1285,107 +1328,119 @@ textarea {
     grid-template-columns: "50% 50%";
     grid-template-areas: "title title" "logoA labelA" "logoB labelB" "logoC labelC"; }
     @media (min-width: 768px) {
-      #point3-container #physics #physicsImage {
+      #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage {
         width: 300px;
         margin-top: 0; } }
     @media (min-width: 992px) {
-      #point3-container #physics #physicsImage {
+      #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage {
         width: 400px; } }
-    #point3-container #physics #physicsImage i {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage i {
       padding: 15px;
       font-size: 2.5rem; }
-    #point3-container #physics #physicsImage p {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage p {
       padding: 15px; }
-    #point3-container #physics #physicsImage h4 {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage h4 {
       color: white;
       grid-area: title; }
-    #point3-container #physics #physicsImage #labelA {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage #labelA {
       grid-area: labelA; }
-    #point3-container #physics #physicsImage #labelB {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage #labelB {
       grid-area: labelB; }
-    #point3-container #physics #physicsImage #labelC {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage #labelC {
       grid-area: labelC; }
-    #point3-container #physics #physicsImage #car {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage #car {
       color: white;
       grid-area: logoA; }
-    #point3-container #physics #physicsImage #flag {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage #flag {
       color: white;
       grid-area: logoB; }
-    #point3-container #physics #physicsImage #spaceShuttle {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage #spaceShuttle {
       color: white;
       grid-area: logoC; }
-  #point3-container #biganimation3container {
-    background-image: url("../img/point3/text3_bg.jpg");
-    background-size: cover;
-    overflow: hidden; }
+
+#point3-container #biganimation3container {
+  background-image: url("../img/point3/text3_bg.jpg");
+  background-size: cover;
+  overflow: hidden; }
+  @media (min-width: 1200px) {
+    #point3-container #biganimation3container {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". biganimationtwo ."; } }
+  @media (min-width: 1200px) {
+    #point3-container #biganimation3container #biganimation3 {
+      grid-area: biganimationtwo; } }
+  #point3-container #biganimation3container #biganimation3 #text1_3 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point3-container #biganimation3container #biganimation3 #text1_3 {
+        margin: 30% 40px 0; } }
     @media (min-width: 1200px) {
-      #point3-container #biganimation3container {
-        display: grid;
-        grid-template-columns: auto 1200px auto;
-        grid-template-areas: ". biganimationtwo ."; } }
+      #point3-container #biganimation3container #biganimation3 #text1_3 {
+        margin: 400px 40px 0; } }
+  #point3-container #biganimation3container #biganimation3 #text2_3 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point3-container #biganimation3container #biganimation3 #text2_3 {
+        margin: 30% 40px 0; } }
     @media (min-width: 1200px) {
-      #point3-container #biganimation3container #biganimation3 {
-        grid-area: biganimationtwo; } }
-    #point3-container #biganimation3container #biganimation3 #text1_3 {
-      opacity: 0;
-      margin: 40% 17px 0 17px;
-      position: absolute; }
-      @media (min-width: 768px) {
-        #point3-container #biganimation3container #biganimation3 #text1_3 {
-          margin: 30% 40px 0; } }
-      @media (min-width: 1200px) {
-        #point3-container #biganimation3container #biganimation3 #text1_3 {
-          margin: 400px 40px 0; } }
-    #point3-container #biganimation3container #biganimation3 #text2_3 {
-      opacity: 0;
-      margin: 40% 17px 0 17px;
-      position: absolute; }
-      @media (min-width: 768px) {
-        #point3-container #biganimation3container #biganimation3 #text2_3 {
-          margin: 30% 40px 0; } }
-      @media (min-width: 1200px) {
-        #point3-container #biganimation3container #biganimation3 #text2_3 {
-          margin: 400px 40px 0; } }
-    #point3-container #biganimation3container #biganimation3 #text3_3 {
-      opacity: 0;
-      margin: 40% 17px 0 17px;
-      position: absolute; }
-      @media (min-width: 768px) {
-        #point3-container #biganimation3container #biganimation3 #text3_3 {
-          margin: 30% 40px 0; } }
-      @media (min-width: 1200px) {
-        #point3-container #biganimation3container #biganimation3 #text3_3 {
-          margin: 400px 40px 0; } }
-    #point3-container #biganimation3container #biganimation3 #text4_3 {
-      opacity: 0;
-      margin: 40% 17px 0 17px;
-      position: absolute; }
-      @media (min-width: 768px) {
-        #point3-container #biganimation3container #biganimation3 #text4_3 {
-          margin: 30% 40px 0; } }
-      @media (min-width: 1200px) {
-        #point3-container #biganimation3container #biganimation3 #text4_3 {
-          margin: 400px 40px 0; } }
-    #point3-container #biganimation3container #biganimation3 #motionpath3container {
-      position: relative;
-      z-index: 10000;
-      opacity: .25;
-      margin-right: -50%;
-      padding: 40px 17px; }
-      @media (min-width: 768px) {
-        #point3-container #biganimation3container #biganimation3 #motionpath3container {
-          width: 700px;
-          margin-left: 40%; } }
-      @media (min-width: 992px) {
-        #point3-container #biganimation3container #biganimation3 #motionpath3container {
-          width: 900px; } }
-      @media (min-width: 992px) {
-        #point3-container #biganimation3container #biganimation3 #motionpath3container {
-          width: 1200px; } }
-  #point3-container #insideTheCar #insideTheCarCopy h3 {
+      #point3-container #biganimation3container #biganimation3 #text2_3 {
+        margin: 400px 40px 0; } }
+  #point3-container #biganimation3container #biganimation3 #text3_3 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point3-container #biganimation3container #biganimation3 #text3_3 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point3-container #biganimation3container #biganimation3 #text3_3 {
+        margin: 400px 40px 0; } }
+  #point3-container #biganimation3container #biganimation3 #text4_3 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point3-container #biganimation3container #biganimation3 #text4_3 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point3-container #biganimation3container #biganimation3 #text4_3 {
+        margin: 400px 40px 0; } }
+  #point3-container #biganimation3container #biganimation3 #motionpath3container {
+    position: relative;
+    z-index: 10000;
+    opacity: .25;
+    margin-right: -50%;
+    padding: 40px 17px; }
+    @media (min-width: 768px) {
+      #point3-container #biganimation3container #biganimation3 #motionpath3container {
+        width: 700px;
+        margin-left: 40%; } }
+    @media (min-width: 992px) {
+      #point3-container #biganimation3container #biganimation3 #motionpath3container {
+        width: 900px; } }
+    @media (min-width: 992px) {
+      #point3-container #biganimation3container #biganimation3 #motionpath3container {
+        width: 1200px; } }
+
+#point3-container #insidethecarxlcontainer {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point3-container #insidethecarxlcontainer {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". insidethecar ."; } }
+  @media (min-width: 1200px) {
+    #point3-container #insidethecarxlcontainer #insidethecarxl {
+      grid-area: insidethecar; } }
+  #point3-container #insidethecarxlcontainer #insidethecarxl #insideTheCar #insideTheCarCopy h3 {
     display: block;
     padding-bottom: 17px; }
-  #point3-container #insideTheCar #insideTheCarImage div {
+  #point3-container #insidethecarxlcontainer #insidethecarxl #insideTheCar #insideTheCarImage div {
     height: 30vh;
     width: 100%;
     margin-top: 52px;
@@ -1394,5 +1449,5 @@ textarea {
     background-position: center;
     background-size: cover; }
     @media (min-width: 768px) {
-      #point3-container #insideTheCar #insideTheCarImage div {
+      #point3-container #insidethecarxlcontainer #insidethecarxl #insideTheCar #insideTheCarImage div {
         margin-top: 0; } }
