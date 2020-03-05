@@ -27,7 +27,7 @@
                     <div></div>
                     <h6>point</h6>
                 </div>
-                <div id="hero2-bgimg" class="pointheroimg"></div>
+                <div uk-parallax="bgx: -200" id="hero2-bgimg" class="pointheroimg"></div>
                 <h1>
                     02
                 </h1>
@@ -58,11 +58,11 @@
                 </div>
 
                 <div id="versus2container">
-                    <div id="point2fballplayer">
+                    <div id="point2fballplayer" uk-parallax="x: -100">
                         <img src="../deploy/img/point2/footballplayer.png" alt="Eagles player">
                     </div>
 
-                    <div id="fball2text" class="sectionsidepadding intro_p_width">
+                    <div id="fball2text" class="sectionsidepadding intro_p_width" >
                         <p>Football players are constantly swapped in and out of the field as coaches get a feel of the other team’s defense/offense.</p>
                         <ul uk-accordion>
                             <li>
@@ -75,7 +75,7 @@
                         </ul>
                     </div>
 
-                    <div id="point2nascardriver">
+                    <div id="point2nascardriver" uk-parallax="x: 100">
                         <img src="../deploy/img/point2/nascardriver.png" alt="NASCAR player">
                     </div>
 
@@ -155,10 +155,6 @@
         </section>
 
 
-
-        <div class="biganimation">
-        </div>
-
         <div class="QAcontainer">
             <div class="QA">
                 <h4>Q2:</h4>
@@ -167,9 +163,32 @@
             </div>
         </div>
 
-        <section id="point2trackanimation" class="animateonscrolltrack">
+                <div class="biganimation" id="biganimation2container" uk-parallax="bgx: -500">
+                    <div id="biganimation2">
+                        <h2 id="text1_2">
+                            HOURS & HOURS OF RACING
+                        </h2>
 
-        </section>
+                        <h2 id="text2_2">
+                            THE MENTAL GRIT
+                        </h2>
+
+                        <h2 id="text3_2">
+                            KNOWING WHEN TO PIT
+                        </h2>
+
+                        <h2 id="text4_2">
+                            THE THRILL OF PASSING EACH OTHER
+                        </h2>
+
+                        <h2 id="text5_2"> THIS IS NASCAR.</h2>
+
+                        <div id="motionpath2container" >
+                        <!-- @import motionpath2.kit -->
+                        </div>
+                    </div>
+                </div>
+
 
         <section id="team_strategies" class="sectiontopbottompadding">
             <div id="team_strategies_container" class="sectionpadding">
@@ -256,13 +275,15 @@ Serviced by Joe Gibbs Racing Toyota">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Greensock -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.4/gsap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/MotionPathPlugin.min.js"></script> -->
     <!-- UI KIT -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit-icons.min.js"></script>
     <!--Fancy Apps-->
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-    <script src="../js/scripts-min.js"></script>
+    <script src="js/point2-min.js"></script>
+
 
 
 </body>

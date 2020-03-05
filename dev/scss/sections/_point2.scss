@@ -231,6 +231,118 @@
 
     }
 }
+//big biganimation
+
+#biganimation2container{
+background-image: url('../img/point2/text-bg.jpg');
+background-size: cover;
+overflow: hidden;
+
+@include xl{
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". biganimationtwo .";
+}
+#biganimation2{
+
+    @include xl{
+        grid-area: biganimationtwo;
+    }
+
+
+            #text1_2{
+                opacity: 0;
+                margin: 40% 17px 0 17px;
+                position: absolute;
+
+                @include md{
+                    margin: 30% 40px 0;
+                }
+
+                @include xl{
+                    margin: 400px 40px 0;
+                }
+            }
+
+            #text2_2{
+                                opacity: 0;
+                margin: 40% 17px 0 17px;
+                position: absolute;
+
+                @include md{
+                    margin: 30% 40px 0;
+                }
+
+                @include xl{
+                    margin: 400px 40px 0;
+                }
+            }
+
+            #text3_2{
+                                opacity: 0;
+                margin: 40% 17px 0 17px;
+                position: absolute;
+
+                @include md{
+                    margin: 30% 40px 0;
+                }
+
+                @include xl{
+                    margin: 400px 40px 0;
+                }
+            }
+
+            #text4_2{
+                                opacity: 0;
+                margin: 40% 17px 0 17px;
+                position: absolute;
+
+                @include md{
+                    margin: 30% 40px 0;
+                }
+
+                @include xl{
+                    margin: 400px 40px 0;
+                }
+            }
+
+            #text5_2{
+                                opacity: 0;
+                margin: 40% 17px 0 17px;
+                position: absolute;
+
+                @include md{
+                    margin: 30% 40px 0;
+                }
+
+                @include xl{
+                    margin: 400px 40px 0;
+                }
+            }
+    #motionpath2container{
+        position: relative;
+        z-index: 10000;
+        opacity: .25;
+        margin-right: -50%;
+        padding: 40px 17px;
+
+        @include md{
+            width: 700px;
+            margin-left: 40%;
+        }
+
+        @include lg{
+            width: 900px;
+        }
+
+        @include lg{
+            width: 1200px;
+        }
+    }
+    }
+}
+
+
 
 //TEAM STRATEGIES
 
@@ -355,8 +467,8 @@
 
 //tldr
 #tldr{
-    background-image: url('../img/point2/text-bg.jpg');
-    background-size: contain;
+    background-image: url('../img/point2/tldr-bg.jpg');
+    background-size: cover;
     @include xl{
         display: grid;
         grid-template-areas: ". tldrcont .";
@@ -373,8 +485,9 @@
                 margin: 0 0 0 28%;
             }
             p{
-                font-size: rem-calc(24);
+                font-size: rem-calc(30);
                 line-height: rem-calc(38);
+                color: white;
             }
         }
     }
@@ -385,33 +498,6 @@
 }
 
 
-#page2transitionleft{
-    left-layer{
-	position: absolute;
-	width :100%;
-	height :100%;
-	top: auto;
-	left: -100%;
-	bottom: auto;
-	right: auto;
-	background: $red;
-	transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
-        }
-	&.active{
-		left:100%;}
-.left-layer--2 {
-	background: $red;
-	transition-delay: .3s;
-}
-.left-layer--3 {
-	background: $yellow;
-	transition-delay: 0.12s;
-}
-.left-layer--4{
-	background: $blue;
-	transition-delay: 0.08s;
-    }
-}
 #subfooter2{
     background-color: $blue;
     @include md{
@@ -423,7 +509,7 @@
     ul{
     display: grid;
     grid-template-columns: auto auto;
-    @include xl{
+    @include md{
         grid-area: subfootertwo;
     }
 

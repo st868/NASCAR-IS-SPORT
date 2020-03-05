@@ -568,6 +568,19 @@ textarea {
         font-size: 1.5rem;
         padding-left: 5px; } }
 
+.biganimation h2 {
+  font-family: 'din-condensed', sans-serif;
+  font-size: 3.4375rem; }
+  @media (min-width: 768px) {
+    .biganimation h2 {
+      font-size: 5rem; } }
+  @media (min-width: 992px) {
+    .biganimation h2 {
+      font-size: 5.625rem; } }
+  @media (min-width: 1200px) {
+    .biganimation h2 {
+      font-size: 6.25rem; } }
+
 .sectionsidepadding {
   padding: 0 17px 0 52px; }
   @media (min-width: 768px) {
@@ -961,6 +974,85 @@ textarea {
       border: none;
       grid-area: interiortwo; } }
 
+#point2-container #biganimation2container {
+  background-image: url("../img/point2/text-bg.jpg");
+  background-size: cover;
+  overflow: hidden; }
+  @media (min-width: 1200px) {
+    #point2-container #biganimation2container {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". biganimationtwo ."; } }
+  @media (min-width: 1200px) {
+    #point2-container #biganimation2container #biganimation2 {
+      grid-area: biganimationtwo; } }
+  #point2-container #biganimation2container #biganimation2 #text1_2 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point2-container #biganimation2container #biganimation2 #text1_2 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point2-container #biganimation2container #biganimation2 #text1_2 {
+        margin: 400px 40px 0; } }
+  #point2-container #biganimation2container #biganimation2 #text2_2 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point2-container #biganimation2container #biganimation2 #text2_2 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point2-container #biganimation2container #biganimation2 #text2_2 {
+        margin: 400px 40px 0; } }
+  #point2-container #biganimation2container #biganimation2 #text3_2 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point2-container #biganimation2container #biganimation2 #text3_2 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point2-container #biganimation2container #biganimation2 #text3_2 {
+        margin: 400px 40px 0; } }
+  #point2-container #biganimation2container #biganimation2 #text4_2 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point2-container #biganimation2container #biganimation2 #text4_2 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point2-container #biganimation2container #biganimation2 #text4_2 {
+        margin: 400px 40px 0; } }
+  #point2-container #biganimation2container #biganimation2 #text5_2 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point2-container #biganimation2container #biganimation2 #text5_2 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point2-container #biganimation2container #biganimation2 #text5_2 {
+        margin: 400px 40px 0; } }
+  #point2-container #biganimation2container #biganimation2 #motionpath2container {
+    position: relative;
+    z-index: 10000;
+    opacity: .25;
+    margin-right: -50%;
+    padding: 40px 17px; }
+    @media (min-width: 768px) {
+      #point2-container #biganimation2container #biganimation2 #motionpath2container {
+        width: 700px;
+        margin-left: 40%; } }
+    @media (min-width: 992px) {
+      #point2-container #biganimation2container #biganimation2 #motionpath2container {
+        width: 900px; } }
+    @media (min-width: 992px) {
+      #point2-container #biganimation2container #biganimation2 #motionpath2container {
+        width: 1200px; } }
+
 #point2-container #team_strategies {
   background-color: #1C1C1E; }
   @media (min-width: 1200px) {
@@ -1046,8 +1138,8 @@ textarea {
       grid-area: nightpit; } }
 
 #point2-container #tldr {
-  background-image: url("../img/point2/text-bg.jpg");
-  background-size: contain; }
+  background-image: url("../img/point2/tldr-bg.jpg");
+  background-size: cover; }
   @media (min-width: 1200px) {
     #point2-container #tldr {
       display: grid;
@@ -1061,34 +1153,9 @@ textarea {
       width: 400px;
       margin: 0 0 0 28%; } }
   #point2-container #tldr #tldrcontainer #tldrpgcontainer p {
-    font-size: 1.5rem;
-    line-height: 2.375rem; }
-
-#page2transitionleft left-layer {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: auto;
-  left: -100%;
-  bottom: auto;
-  right: auto;
-  background: #DD002A;
-  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1); }
-
-#page2transitionleft.active {
-  left: 100%; }
-
-#page2transitionleft .left-layer--2 {
-  background: #DD002A;
-  transition-delay: .3s; }
-
-#page2transitionleft .left-layer--3 {
-  background: #F9D159;
-  transition-delay: 0.12s; }
-
-#page2transitionleft .left-layer--4 {
-  background: #0477BE;
-  transition-delay: 0.08s; }
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    color: white; }
 
 #subfooter2 {
   background-color: #0477BE; }
@@ -1100,7 +1167,7 @@ textarea {
   #subfooter2 ul {
     display: grid;
     grid-template-columns: auto auto; }
-    @media (min-width: 1200px) {
+    @media (min-width: 768px) {
       #subfooter2 ul {
         grid-area: subfootertwo; } }
     #subfooter2 ul a {

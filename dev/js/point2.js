@@ -1,37 +1,32 @@
-// const flip2 = document.getElementsByTagName("whyisnascarasport2");
-// //
-// for (const button of flip2) {
-//   button.addEventListener('click', () => {
-//      var id = button.getAttribute("id");
+var animationTwo = gsap.timeline({
+    paused: true, repeat: -1
+});
 
-     // var layerClass = "." + id+ "-layer";
-     // var layers = document.querySelectorAll(layerClass);
-     // for (const layer of layers) {
-     //   layer.classList.toggle("active");
-     // }
-//   });
-// }
+    animationTwo.to("#text1_2",{alpha: 1, duration: 0})
+        .to("#text1_2",{alpha: 1, duration: 2})
+        .to("#text1_2",{alpha: 0, duration: .1,  ease: "Expo.easeInOut"})
+
+        .to("#text2_2",{alpha: 1, duration: 0})
+        .to("#text2_2",{alpha: 1, duration: 2})
+        .to("#text2_2",{alpha: 0, duration: .1,  ease: "Expo.easeInOut"})
+
+        .to("#text3_2",{alpha: 1, duration: 0})
+        .to("#text3_2",{alpha: 1, duration: 2})
+        .to("#text3_2",{alpha: 0, duration: .1,  ease: "Expo.easeInOut"})
+
+        .to("#text4_2",{alpha: 1, duration: 0})
+        .to("#text4_2",{alpha: 1, duration: 2})
+        .to("#text4_2",{alpha: 0, duration: .25, ease: "power4.easeInOut"})
+
+
+                .to("#text5_2",{alpha: 1, duration: 0})
+                .to("#text5_2",{alpha: 1, duration: 2})
+        .to("#text5_2",{alpha: 0, duration: .25, ease: "power4.easeInOut"});
 
 
 
-// $( "#whyisnascarasport2" ).click(function() {
-//   // $( "#target" ).mousedown(); var layerClass = "." + id+ "-layer";
-//    var layers = document.querySelectorAll(layerClass);
-//    for (const layer of layers) {
-//      layer.classList.toggle("active");
-//    }
-// });
+$( document ).ready(function() {
+    // gsap.registerPlugin(scroll);
+    animationTwo.play();
 
-// const buttons = document.getElementsByTagName("button");
-//
-// for (const button of buttons) {
-//   button.addEventListener('click', () => {
-//      var id = button.getAttribute("id");
-//
-//      var layerClass = "." + id+ "-layer";
-//      var layers = document.querySelectorAll(layerClass);
-//      for (const layer of layers) {
-//        layer.classList.toggle("active");
-//      }
-//   });
-// }
+});
