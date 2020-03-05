@@ -380,6 +380,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/point3/animate3_bg.jpg": {
+		"ft": 16384,
+		"iS": 358358,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point3/animate3_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/point3/hero.jpg": {
 		"ft": 16384,
 		"iS": 301226,
@@ -424,6 +435,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/point3/text3_bg.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point3/text3_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/point3/training.jpg": {
 		"ft": 16384,
 		"iS": 8192,
@@ -445,16 +467,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/Track-03.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/Track-03.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/deploy/img/Track-04.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -470,6 +482,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/Track_02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/Track_03-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/Track_03-01.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
