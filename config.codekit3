@@ -380,6 +380,61 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/point3/hero.jpg": {
+		"ft": 16384,
+		"iS": 301226,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point3/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point3/hero2.jpg": {
+		"ft": 16384,
+		"iS": 295058,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point3/hero2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point3/inside.jpg": {
+		"ft": 16384,
+		"iS": 84544,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point3/inside.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point3/intro.jpg": {
+		"ft": 16384,
+		"iS": 310448,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point3/intro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point3/training.jpg": {
+		"ft": 16384,
+		"iS": 8192,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point3/training.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/whitearrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -389,6 +444,14 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/deploy/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/index.html",
+		"oF": 0
 		},
 	"/deploy/js/header-min.js": {
 		"bF": 0,
@@ -444,14 +507,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/deploy/point1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/point1.html",
-		"oF": 0
 		},
 	"/deploy/point2.html": {
 		"cB": 0,
@@ -1359,7 +1414,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 8193,
+	"esLintEnvironmentsMask": 1,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -1682,7 +1737,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -2402,7 +2457,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "GSAP, layerClass",
+	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
