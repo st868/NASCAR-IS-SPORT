@@ -384,6 +384,34 @@
 
 }
 
+
+#page2transitionleft{
+    left-layer{
+	position: absolute;
+	width :100%;
+	height :100%;
+	top: auto;
+	left: -100%;
+	bottom: auto;
+	right: auto;
+	background: $red;
+	transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+	&.active{
+		left:100%;}
+.left-layer--2 {
+	background: $red;
+	transition-delay: .3s;
+}
+.left-layer--3 {
+	background: $yellow;
+	transition-delay: 0.12s;
+}
+.left-layer--4{
+	background: $blue;
+	transition-delay: 0.08s;
+    }
+}
 #subfooter2{
     background-color: $blue;
     @include md{
@@ -392,23 +420,23 @@
         grid-template-areas: ". subfootertwo .";
     }
 
-ul{
+    ul{
     display: grid;
     grid-template-columns: auto auto;
     @include xl{
         grid-area: subfootertwo;
     }
 
-a{
+    a{
     color: white;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-}
+    }
 
-p{
+    p{
     text-align: center;
     color: white;
-}
+    }
     a:link, a:visited{
         color: white;
         transition: .25s;

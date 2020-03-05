@@ -1020,6 +1020,32 @@ textarea {
     font-size: 1.5rem;
     line-height: 2.375rem; }
 
+#page2transitionleft left-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: auto;
+  left: -100%;
+  bottom: auto;
+  right: auto;
+  background: #DD002A;
+  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1); }
+
+#page2transitionleft.active {
+  left: 100%; }
+
+#page2transitionleft .left-layer--2 {
+  background: #DD002A;
+  transition-delay: .3s; }
+
+#page2transitionleft .left-layer--3 {
+  background: #F9D159;
+  transition-delay: 0.12s; }
+
+#page2transitionleft .left-layer--4 {
+  background: #0477BE;
+  transition-delay: 0.08s; }
+
 #subfooter2 {
   background-color: #0477BE; }
   @media (min-width: 768px) {
