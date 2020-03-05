@@ -294,7 +294,7 @@
 		"iS": 310448,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/point3/Intro.jpg",
+		"oAP": "/deploy/img/point3/intro.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -310,14 +310,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"/deploy/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/index.html",
-		"oF": 0
 		},
 	"/deploy/js/header-min.js": {
 		"bF": 0,
@@ -374,6 +366,22 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/point1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/point1.html",
+		"oF": 0
+		},
+	"/deploy/point2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/point2.html",
+		"oF": 0
+		},
 	"/deploy/point3.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -418,7 +426,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/deploy/point1.html",
 		"oF": 3
 		},
@@ -426,7 +434,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/deploy/point2.html",
 		"oF": 3
 		},
@@ -435,7 +443,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/index.html",
+		"oAP": "/deploy/point3.html",
 		"oF": 3
 		},
 	"/dev/html/sub-footer.kit": {
