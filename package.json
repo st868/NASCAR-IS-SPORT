@@ -8,6 +8,7 @@
   "repository": {},
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
+    "bideo": "^1.0.0",
     "uikit": "^3.3.3"
   }
 }
