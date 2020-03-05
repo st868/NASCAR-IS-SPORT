@@ -27,14 +27,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/home.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/home.html",
-		"oF": 0
-		},
 	"/deploy/img/Arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -264,6 +256,69 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/point3/hero.jpg": {
+		"ft": 16384,
+		"iS": 301226,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point3/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point3/hero2.jpg": {
+		"ft": 16384,
+		"iS": 295058,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point3/hero2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point3/inside.jpg": {
+		"ft": 16384,
+		"iS": 84544,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point3/inside.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/point3/Intro.jpg": {
+		"ft": 16384,
+		"iS": 310448,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point3/Intro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/point3/training.jpg": {
+		"ft": 16384,
+		"iS": 8192,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/point3/training.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/index.html",
+		"oF": 0
+		},
 	"/deploy/js/header-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -319,22 +374,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/deploy/point1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/point1.html",
-		"oF": 0
-		},
-	"/deploy/point2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/point2.html",
-		"oF": 0
-		},
 	"/deploy/point3.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -373,31 +412,31 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/html/navigation/navigation.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/dev/html/point-1/point1.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/deploy/point1.html",
-		"oF": 2
+		"oF": 3
 		},
 	"/dev/html/point-2/point2.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/deploy/point2.html",
-		"oF": 2
+		"oF": 3
 		},
 	"/dev/html/point-3/point3.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/point3.html",
-		"oF": 2
+		"oAP": "/deploy/index.html",
+		"oF": 3
 		},
 	"/dev/html/sub-footer.kit": {
 		"cB": 0,
@@ -729,14 +768,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/NASCAR-IS-A-SPORT/.gitattributes": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/NASCAR-IS-A-SPORT/.gitattributes",
-		"oF": 0
-		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -766,7 +797,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 604864846.70263803,
-	"displayValue": "NASCARISSPORT",
+	"displayValue": "NASCAR-IS-SPORT",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pink",
 	"iconImageWasSetByUser": 0

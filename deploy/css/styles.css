@@ -656,3 +656,118 @@ textarea {
   @media (min-width: 1200px) {
     #point2-container #individual_strategies #individual_strategies_container {
       grid-area: instrategies; } }
+
+#point3-container {
+  max-width: 1400px; }
+  #point3-container .QAcontainer h4 {
+    color: #DD002A; }
+  #point3-container .sectionBase {
+    padding: 47px 17px 47px 52px;
+    background-color: #1C1C1E; }
+    @media (min-width: 768px) {
+      #point3-container .sectionBase {
+        padding: 68px 48; } }
+    @media (min-width: 992px) {
+      #point3-container .sectionBase {
+        padding: 60px 42; } }
+  #point3-container .titlePadding {
+    padding-bottom: 17px; }
+  #point3-container .caption {
+    padding-top: 10px;
+    font-size: 0.75rem; }
+  #point3-container .bigSection {
+    grid-area: big; }
+  #point3-container .smallSection {
+    grid-area: small; }
+  @media (min-width: 768px) {
+    #point3-container .gridMain {
+      display: grid;
+      grid-gap: 17px;
+      grid-template-columns: "40% 60%";
+      grid-template-areas: "small big"; } }
+  @media (min-width: 992px) {
+    #point3-container .gridMain {
+      grid-gap: 40px;
+      grid-template-columns: "35% 65%"; } }
+  #point3-container #hero3-bgimg {
+    background-image: url("../img/point3/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px; }
+  #point3-container #intro #introCopy h3 {
+    padding-bottom: 17px; }
+  #point3-container #intro #introImage div {
+    height: 30vh;
+    width: 100%;
+    margin-top: 52px;
+    min-height: 250px;
+    background-image: url("../img/point3/intro.jpg");
+    background-position: center;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      #point3-container #intro #introImage div {
+        margin-top: 0; } }
+  #point3-container #training #trainingCopy h3 {
+    display: block;
+    padding-bottom: 17px; }
+  #point3-container #training #trainingImage div {
+    height: 30vh;
+    width: 100%;
+    margin-top: 52px;
+    min-height: 250px;
+    background-image: url("../img/point3/training.jpg");
+    background-position: center;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      #point3-container #training #trainingImage div {
+        margin-top: 0; } }
+  #point3-container #physics #physicsCopy h3 {
+    display: block;
+    padding-bottom: 17px; }
+  #point3-container #physics #physicsImage {
+    margin-top: 52px;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: "50% 50%";
+    grid-template-areas: "title title" "logoA labelA" "logoB labelB" "logoC labelC"; }
+    @media (min-width: 768px) {
+      #point3-container #physics #physicsImage {
+        width: 300px;
+        margin-top: 0; } }
+    @media (min-width: 992px) {
+      #point3-container #physics #physicsImage {
+        width: 400px; } }
+    #point3-container #physics #physicsImage i {
+      padding: 15px;
+      font-size: 2.5rem; }
+    #point3-container #physics #physicsImage p {
+      padding: 15px; }
+    #point3-container #physics #physicsImage h4 {
+      grid-area: title; }
+    #point3-container #physics #physicsImage #labelA {
+      grid-area: labelA; }
+    #point3-container #physics #physicsImage #labelB {
+      grid-area: labelB; }
+    #point3-container #physics #physicsImage #labelC {
+      grid-area: labelC; }
+    #point3-container #physics #physicsImage #car {
+      grid-area: logoA; }
+    #point3-container #physics #physicsImage #flag {
+      grid-area: logoB; }
+    #point3-container #physics #physicsImage #spaceShuttle {
+      grid-area: logoC; }
+  #point3-container #insideTheCar #insideTheCarCopy h3 {
+    display: block;
+    padding-bottom: 17px; }
+  #point3-container #insideTheCar #insideTheCarImage div {
+    height: 30vh;
+    width: 100%;
+    margin-top: 52px;
+    min-height: 250px;
+    background-image: url("../img/point3/inside.jpg");
+    background-position: center;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      #point3-container #insideTheCar #insideTheCarImage div {
+        margin-top: 0; } }

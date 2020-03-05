@@ -1,0 +1,177 @@
+#point3-container{
+    max-width: 1400px;
+    .QAcontainer{
+        h4{
+            color: $red;
+        }
+    }
+    .sectionBase{
+        padding: 47px 17px 47px 52px;
+        background-color: $darkgrey;
+
+        @include md{
+            padding: 68px 48;
+        }
+        @include lg{
+            padding: 60px 42;
+        }
+    }
+    .titlePadding{
+        padding-bottom: 17px;
+    }
+    .caption{
+        padding-top: 10px;
+        font-size: rem-calc(12);
+
+    }
+    .bigSection{
+        grid-area: big;
+    }
+    .smallSection{
+        grid-area: small;
+    }
+
+    .gridMain{
+        @include md{
+            display: grid;
+            grid-gap: 17px;
+            grid-template-columns: "40% 60%";
+            grid-template-areas: "small big"
+        }
+        @include lg{
+            grid-gap: 40px;
+            grid-template-columns: "35% 65%";
+        }
+    }
+    #hero3-bgimg{
+        background-image: url("../img/point3/hero.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+
+    #intro{
+        #introCopy{
+            h3{
+                padding-bottom: 17px;
+            }
+        }
+        #introImage{
+            div{
+                height: 30vh;
+                width: 100%;
+                margin-top: 52px;
+                min-height: 250px;
+                background-image: url("../img/point3/intro.jpg");
+                background-position: center;
+                background-size: cover;
+                @include md{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    #training{
+        #trainingCopy{
+            h3{
+                display: block;
+                padding-bottom: 17px;
+                @include md{
+                }
+            }
+        }
+        #trainingImage{
+            div{
+                height: 30vh;
+                width: 100%;
+                margin-top: 52px;
+                min-height: 250px;
+                background-image: url("../img/point3/training.jpg");
+                background-position: center;
+                background-size: cover;
+                @include md{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    #physics{
+        #physicsCopy{
+            h3{
+                display: block;
+                padding-bottom: 17px;
+                @include md{
+                }
+            }
+        }
+        #physicsImage{
+            margin-top: 52px;
+            text-align: center;
+            width:  100%;
+            display: grid;
+            grid-template-columns: "50% 50%";
+            grid-template-areas:
+            "title title"
+            "logoA labelA""logoB labelB"
+            "logoC labelC";
+            @include md{
+                width: 300px;
+                margin-top: 0;
+            }
+            @include lg{
+                width: 400px;
+            }
+            i{
+                padding: 15px;
+                font-size: rem-calc(40px);
+            }
+            p{
+                padding: 15px;
+            }
+            h4{
+                grid-area: title;
+            }
+            #labelA{
+                grid-area: labelA;
+            }
+            #labelB{
+                grid-area: labelB;
+            }
+            #labelC{
+                grid-area: labelC;
+            }
+            #car{
+                grid-area:logoA;
+            }
+            #flag{
+                grid-area:logoB;
+            }#spaceShuttle{
+                grid-area:logoC;
+            }
+        }
+    }
+    #insideTheCar{
+        #insideTheCarCopy{
+            h3{
+                display: block;
+                padding-bottom: 17px;
+                @include md{
+                }
+            }
+        }
+        #insideTheCarImage{
+            div{
+                height: 30vh;
+                width: 100%;
+                margin-top: 52px;
+                min-height: 250px;
+                background-image: url("../img/point3/inside.jpg");
+                background-position: center;
+                background-size: cover;
+                @include md{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
