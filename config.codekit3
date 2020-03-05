@@ -628,6 +628,14 @@
 		"oAP": "/deploy/point2.html",
 		"oF": 2
 		},
+	"/dev/html/point-3/motionpath3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/html/point-3/motionpath3.html",
+		"oF": 0
+		},
 	"/dev/html/point-3/point3.kit": {
 		"cB": 0,
 		"ft": 2048,
