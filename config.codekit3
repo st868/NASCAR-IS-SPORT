@@ -445,14 +445,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/index.html",
-		"oF": 0
-		},
 	"/deploy/js/header-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -507,6 +499,14 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/deploy/point1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/point1.html",
+		"oF": 0
 		},
 	"/deploy/point2.html": {
 		"cB": 0,
@@ -600,7 +600,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/html/subfooter3.html",
 		"oF": 0
 		},
@@ -2457,7 +2457,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "GSAP",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
