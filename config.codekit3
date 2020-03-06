@@ -45,6 +45,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/form.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/form.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/point1/Point1_1.jpg": {
 		"ft": 16384,
 		"iS": 1141298,
@@ -329,6 +339,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/social.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/social.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/js/header-min.js": {
 		"bF": 0,

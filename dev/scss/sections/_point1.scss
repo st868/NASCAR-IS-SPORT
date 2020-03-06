@@ -24,7 +24,7 @@
         }
 
         #hero1-bgimg{
-            background-image: url('../img/point1/hero2-img.jpg');
+            background-image: url('../img/point1/Point1_1.jpg');
             width: 100%;
             background-size: 150%;
             background-position: 40% 60%;
@@ -38,19 +38,29 @@
     @include xl{
         display: grid;
         grid-template-columns:auto 1200px auto;
-        grid-template-areas: ". introtwo .";
+        grid-template-areas: ". introone .";
     }
-
-        #intro_1_container{
-            @include xl{
-                grid-area: introtwo;
-            }
-
+}
+    #intro_1_container{
+        @include xl{
+            grid-area: introone;
+        }
         .intro_p_width{
             @include md{
                 width: 400px;
             }
         }
+
+//AUTO
+    #auto_container{
+        overflow: hidden;
+        background-color: $darkgrey;
+        @include xl{
+            display: grid;
+            grid-template-columns:repeat(2,1fr);
+        }
+    }
+
 
         .likeafball{
             @include md{ width: 400px;}
@@ -133,9 +143,3 @@
 }
 
 //TEAM STRATEGIES
-
-
-
-
-
-}

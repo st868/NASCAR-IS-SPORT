@@ -48,7 +48,8 @@ h4{
 }
 
 h5{
-
+        font-family: 'Oswald', sans-serif;
+        color: $white;
 }
 h6{
     font-family: 'Roboto', sans-serif;
@@ -59,10 +60,20 @@ p{
     color: $lightgrey;
 }
 
+ol{
+    font-family: 'Roboto', sans-serif;
+    color: $lightgrey;
+}
+
 .uk-accordion-title{
     font-family: 'Roboto', sans-serif;
     font-size: rem-calc(15);
     color: $lightgrey;
     padding-top: 4px;
     opacity: .5;
+}
+
+.black-text{
+    font-family: 'Oswald', sans-serif;
+    color: $black;
 }
