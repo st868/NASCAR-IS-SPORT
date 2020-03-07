@@ -1,0 +1,21 @@
+#footer {
+    @include md {}
+}
+
+#mobile {
+    @include md {
+        display: none;
+    }
+    @include xl {
+        display: none;
+    }
+}
+
+#tablet{
+    @include sm{
+        display: none;
+    }
+    @include xl{
+        display: none;
+    }
+}

@@ -750,3 +750,19 @@ textarea {
   @media (min-width: 1200px) {
     #point2-container #individual_strategies #individual_strategies_container {
       grid-area: instrategies; } }
+
+@media (min-width: 768px) {
+  #mobile {
+    display: none; } }
+
+@media (min-width: 1200px) {
+  #mobile {
+    display: none; } }
+
+@media (min-width: 576px) {
+  #tablet {
+    display: none; } }
+
+@media (min-width: 1200px) {
+  #tablet {
+    display: none; } }
