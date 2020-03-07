@@ -1,145 +1,98 @@
-#point1-container{
-
-    .QA{
-        h4{
+#point1-container {
+    .QA {
+        h4 {
             color: $yellow;
         }
     }
 
-    #hero_1{
-
-        h1{
+    #hero_1 {
+        h1 {
             color: $yellow;
         }
         //
-        .herosubheadercontainer{
+        .herosubheadercontainer {
             width: 50%;
-
-            @include md{
+            @include md {
                 width: 70%;
             }
-            @include lg{
+            @include lg {
                 width: 700px;
             }
         }
 
-        #hero1-bgimg{
-            background-image: url('../img/point1/Point1_1.jpg');
+        #hero1-bgimg {
+            background-image: url("../img/point1/Point1_1.jpg");
             width: 100%;
             background-size: 150%;
             background-position: 40% 60%;
         }
     }
-
-//INTRODUCTION
-    #intro_1{
+    //INTRODUCTION
+    #intro_1 {
         overflow: hidden;
-        background-color: $darkgrey;
-    @include xl{
-        display: grid;
-        grid-template-columns:auto 1200px auto;
-        grid-template-areas: ". introone .";
+        background-color: $yellow;
+        @include xl {
+            display: grid;
+            grid-template-columns: auto 1200px auto;
+            grid-template-areas: ". introone .";
+        }
     }
-}
-    #intro_1_container{
-        @include xl{
+
+    #intro_1_container {
+        @include xl {
             grid-area: introone;
         }
-        .intro_p_width{
-            @include md{
+
+        .intro_p_width {
+            @include md {
                 width: 400px;
             }
         }
+    }
+    //AUTO
 
-//AUTO
-    #auto_container{
-        overflow: hidden;
+    #auto {
         background-color: $darkgrey;
-        @include xl{
+    }
+
+    #auto_container {
+        @include xl {
             display: grid;
-            grid-template-columns:repeat(2,1fr);
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 75px;
+        }
+        @include md {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 50px;
+        }
+    }
+    //VS
+    #vs {
+        background-color: $darkgrey;
+    }
+
+    #vs_container {
+        background-color: $darkgrey;
+        @include xl {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        @include md {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
         }
     }
 
-
-        .likeafball{
-            @include md{ width: 400px;}
+    #center {
+        text-align: center;
+        @include xl {
+            position: relative;
+            top: 200px;
         }
-
-        #versus2container{
-            @include md{
-                display: grid;
-                grid-template-columns: 50% auto;
-                grid-template-areas:
-                "fballtxt ndriver"
-                "fballplayer ndrivertxt";
-            }
-
-
-
-            #fball2text{
-                @include md{
-                    grid-area: fballtxt;
-                    margin-top: 30px;
-                }
-            }
-        #point2fballplayer{
-            img{
-                width: 530px;
-                padding: 10px 0;
-
-                @include lg{
-                    width: 590px;
-                }
-            }
-
-            @include md{
-                grid-area: fballplayer;
-                margin-top: -240px;
-
-            }
-
-        }
-
-        #ndriver2text{
-            @include md{
-                grid-area: ndrivertxt;
-
-            }
-        }
-
-        #point2nascardriver{
-            img{
-                width: 460px;
-                padding: 10px 0;
-                @include lg{
-                    width: 540px;
-                }
-            }
-            @include md{
-                grid-area: ndriver;
-                margin-left: -50px;
-            }
-
-        }
-    }
-    }
-}
-
-//INDIVIDUAL strategies
-
-#individual_strategies{
-    background-color: $darkgrey;
-    @include xl{
-        display: grid;
-        grid-template-columns: auto 1200px auto;
-        grid-template-areas: ". instrategies .";
-    }
-    #individual_strategies_container{
-        @include xl{
-            grid-area: instrategies;
+        @include md {
+            position: relative;
+            top: 200px;
         }
     }
 }
-
-//TEAM STRATEGIES
