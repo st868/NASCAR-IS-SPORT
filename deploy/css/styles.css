@@ -430,6 +430,42 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #ECECEC; }
+  @media (min-width: 1200px) {
+    footer {
+      display: grid;
+      grid-template-areas: ". footerwidth .";
+      grid-template-columns: auto 1200px auto; } }
+  footer #footergrid {
+    padding: 25px 0px 25px 0px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      footer #footergrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1200px) {
+      footer #footergrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-area: footerwidth; } }
+    footer #footergrid .info {
+      padding: 25px 0px 25px 0px;
+      text-align: center; }
+      @media (min-width: 768px) {
+        footer #footergrid .info {
+          border-left: 3px #1C1C1E;
+          padding-left: 100px;
+          text-align: center; } }
+      @media (min-width: 1200px) {
+        footer #footergrid .info {
+          border-left: 3px #1C1C1E;
+          padding-left: 100px;
+          text-align: center; } }
+      footer #footergrid .info .social {
+        border: 3px #1C1C1E;
+        padding-bottom: 15px; }
+
 .point_hero {
   padding-top: 60px;
   background-color: #1C1C1E;
@@ -614,6 +650,57 @@ textarea {
   @media (min-width: 992px) {
     .sectiontopbottompadding {
       padding: 60px 0; } }
+
+@media (min-width: 768px) {
+  .subfooter {
+    display: grid;
+    grid-template-columns: auto 600px auto;
+    grid-template-areas: ". subfootertwo ."; } }
+
+.subfooter ul {
+  display: grid;
+  grid-template-columns: auto auto; }
+  @media (min-width: 768px) {
+    .subfooter ul {
+      grid-area: subfootertwo; } }
+  .subfooter ul a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; }
+  .subfooter ul p {
+    text-align: center;
+    color: white; }
+  .subfooter ul a:link, .subfooter ul a:visited {
+    color: white;
+    transition: .25s; }
+  .subfooter ul a:hover, .subfooter ul a:active {
+    text-decoration: underline;
+    color: white;
+    font-weight: 500; }
+  .subfooter ul span {
+    display: none; }
+    @media (min-width: 768px) {
+      .subfooter ul span {
+        display: block; } }
+  .subfooter ul li {
+    padding: 0 0 30px 0; }
+    @media (min-width: 768px) {
+      .subfooter ul li {
+        padding: 50px 0 80px 0; } }
+  .subfooter ul .point1_subfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .subfooter ul .point1_subfooter img {
+      transform: rotate(90deg); }
+  .subfooter ul .point2_subfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .subfooter ul .point2_subfooter img {
+      transform: rotate(-90deg); }
 
 #backgroundvideocontainer {
   width: 100%; }
@@ -836,6 +923,182 @@ textarea {
           @media (min-width: 768px) {
             #nascarhome #nascarhomecontainer #signup .contactform .button button {
               padding: 13px 45px; } }
+
+#point1-container .QA h4 {
+  color: #F9D159; }
+
+#point1-container #hero_1 h1 {
+  color: #F9D159; }
+
+#point1-container #hero_1 .herosubheadercontainer {
+  width: 50%; }
+  @media (min-width: 768px) {
+    #point1-container #hero_1 .herosubheadercontainer {
+      width: 70%; } }
+  @media (min-width: 992px) {
+    #point1-container #hero_1 .herosubheadercontainer {
+      width: 700px; } }
+
+#point1-container #hero_1 #hero1-bgimg {
+  background-image: url("../img/point1/Point1_1.jpg");
+  background-position: 40% 60%;
+  background-size: 150%;
+  width: 100%; }
+
+#point1-container #intro_1 {
+  background-color: #F9D159;
+  overflow: hidden; }
+  #point1-container #intro_1 h3 {
+    color: #1C1C1E; }
+  #point1-container #intro_1 p {
+    color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point1-container #intro_1 {
+      display: grid;
+      grid-template-areas: ". introone .";
+      grid-template-columns: auto 1200px auto; } }
+
+@media (min-width: 1200px) {
+  #point1-container #intro_1_container {
+    grid-area: introone; } }
+
+@media (min-width: 768px) {
+  #point1-container #intro_1_container .intro_p_width {
+    width: 400px; } }
+
+#point1-container #autoracingcontainer {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point1-container #autoracingcontainer {
+      display: grid;
+      grid-template-areas: ". autoracing .";
+      grid-template-columns: auto 1200px auto; } }
+  @media (min-width: 1200px) {
+    #point1-container #autoracingcontainer #autoracing {
+      grid-area: autoracing; } }
+  @media (min-width: 1200px) {
+    #point1-container #autoracingcontainer #autoracing #auto #auto_container {
+      display: grid;
+      grid-gap: 75px;
+      grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 768px) {
+    #point1-container #autoracingcontainer #autoracing #auto #auto_container {
+      display: grid;
+      grid-gap: 50px;
+      grid-template-columns: repeat(2, 1fr); } }
+
+#point1-container #biganimation1container {
+  background-image: url("../img/point1/Point1_4.jpg");
+  background-size: cover;
+  overflow: hidden; }
+  @media (min-width: 1200px) {
+    #point1-container #biganimation1container {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". biganimationone ."; } }
+  @media (min-width: 1200px) {
+    #point1-container #biganimation1container #biganimation1 {
+      grid-area: biganimationone; } }
+  #point1-container #biganimation1container #biganimation1 #text1_1 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point1-container #biganimation1container #biganimation1 #text1_1 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point1-container #biganimation1container #biganimation1 #text1_1 {
+        margin: 400px 40px 0; } }
+  #point1-container #biganimation1container #biganimation1 #text2_1 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point1-container #biganimation1container #biganimation1 #text2_1 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point1-container #biganimation1container #biganimation1 #text2_1 {
+        margin: 400px 40px 0; } }
+  #point1-container #biganimation1container #biganimation1 #text3_1 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point1-container #biganimation1container #biganimation1 #text3_1 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point1-container #biganimation1container #biganimation1 #text3_1 {
+        margin: 400px 40px 0; } }
+  #point1-container #biganimation1container #biganimation1 #text4_1 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point1-container #biganimation1container #biganimation1 #text4_1 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point1-container #biganimation1container #biganimation1 #text4_1 {
+        margin: 400px 40px 0; } }
+  #point1-container #biganimation1container #biganimation1 #text5_1 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point1-container #biganimation1container #biganimation1 #text5_1 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point1-container #biganimation1container #biganimation1 #text5_1 {
+        margin: 400px 40px 0; } }
+  #point1-container #biganimation1container #biganimation1 #motionpath1container {
+    position: relative;
+    z-index: 10000;
+    opacity: .25;
+    margin-right: -50%;
+    padding: 40px 17px; }
+    @media (min-width: 768px) {
+      #point1-container #biganimation1container #biganimation1 #motionpath1container {
+        width: 700px;
+        margin-left: 40%; } }
+    @media (min-width: 992px) {
+      #point1-container #biganimation1container #biganimation1 #motionpath1container {
+        width: 900px; } }
+    @media (min-width: 992px) {
+      #point1-container #biganimation1container #biganimation1 #motionpath1container {
+        width: 1200px; } }
+
+#point1-container #nascarfootballcontainer {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point1-container #nascarfootballcontainer {
+      display: grid;
+      grid-template-areas: ". nascarfootball .";
+      grid-template-columns: auto 1200px auto; } }
+  @media (min-width: 1200px) {
+    #point1-container #nascarfootballcontainer #nascarfootball {
+      grid-area: nascarfootball; } }
+  @media (min-width: 1200px) {
+    #point1-container #nascarfootballcontainer #nascarfootball #vs_container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); } }
+  @media (min-width: 768px) {
+    #point1-container #nascarfootballcontainer #nascarfootball #vs_container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); } }
+  #point1-container #nascarfootballcontainer #nascarfootball #vs_container #center {
+    text-align: center; }
+    @media (min-width: 1200px) {
+      #point1-container #nascarfootballcontainer #nascarfootball #vs_container #center {
+        position: relative;
+        top: 200px; } }
+    @media (min-width: 768px) {
+      #point1-container #nascarfootballcontainer #nascarfootball #vs_container #center {
+        position: relative;
+        top: 200px; } }
+
+#subfooter1 {
+  background-color: #F9D159; }
+  #subfooter1 a {
+    color: #1C1C1E; }
 
 #point2-container .QA h4 {
   color: #0477BE; }
@@ -1175,55 +1438,6 @@ textarea {
 
 #subfooter2 {
   background-color: #0477BE; }
-  @media (min-width: 768px) {
-    #subfooter2 {
-      display: grid;
-      grid-template-columns: auto 600px auto;
-      grid-template-areas: ". subfootertwo ."; } }
-  #subfooter2 ul {
-    display: grid;
-    grid-template-columns: auto auto; }
-    @media (min-width: 768px) {
-      #subfooter2 ul {
-        grid-area: subfootertwo; } }
-    #subfooter2 ul a {
-      color: white;
-      text-decoration: none;
-      font-family: 'Roboto', sans-serif; }
-    #subfooter2 ul p {
-      text-align: center;
-      color: white; }
-    #subfooter2 ul a:link, #subfooter2 ul a:visited {
-      color: white;
-      transition: .25s; }
-    #subfooter2 ul a:hover, #subfooter2 ul a:active {
-      text-decoration: underline;
-      color: white;
-      font-weight: 500; }
-    #subfooter2 ul span {
-      display: none; }
-      @media (min-width: 768px) {
-        #subfooter2 ul span {
-          display: block; } }
-    #subfooter2 ul li {
-      padding: 0 0 30px 0; }
-      @media (min-width: 768px) {
-        #subfooter2 ul li {
-          padding: 50px 0 80px 0; } }
-    #subfooter2 ul #whyisnascarasport2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
-      #subfooter2 ul #whyisnascarasport2 img {
-        transform: rotate(90deg); }
-    #subfooter2 ul #itrequiresstrength2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
-      #subfooter2 ul #itrequiresstrength2 img {
-        transform: rotate(-90deg); }
 
 #point3-container .QAcontainer h4 {
   color: #DD002A; }
@@ -1467,3 +1681,13 @@ textarea {
     @media (min-width: 768px) {
       #point3-container #insidethecarxlcontainer #insidethecarxl #insideTheCar #insideTheCarImage div {
         margin-top: 0; } }
+
+#subfooter3 {
+  background-color: #DD002A; }
+
+#sub {
+  background-color: #F9D159;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 50px 0px 50px 0px;
+  text-align: center; }
