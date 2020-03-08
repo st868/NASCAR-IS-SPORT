@@ -380,12 +380,28 @@ p {
   font-family: 'Roboto', sans-serif;
   color: #c0c0c0; }
 
+ol {
+  font-family: 'Roboto', sans-serif;
+  color: #c0c0c0; }
+
+ul {
+  font-family: 'Roboto', sans-serif;
+  color: #c0c0c0; }
+
 .uk-accordion-title {
   font-family: 'Roboto', sans-serif;
   font-size: 0.9375rem;
   color: #c0c0c0;
   padding-top: 4px;
   opacity: .5; }
+
+.black-text {
+  font-family: 'Oswald', sans-serif;
+  color: #000; }
+
+.black-text2 {
+  font-family: 'Roboto', sans-serif;
+  color: #000; }
 
 /* =============
     Buttons

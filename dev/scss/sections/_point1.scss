@@ -1,0 +1,100 @@
+#point1-container {
+    .QA {
+        h4 {
+            color: $yellow;
+        }
+    }
+
+    #hero_1 {
+        h1 {
+            color: $yellow;
+        }
+        //
+        .herosubheadercontainer {
+            width: 50%;
+            @include md {
+                width: 70%;
+            }
+            @include lg {
+                width: 700px;
+            }
+        }
+
+        #hero1-bgimg {
+            background-image: url("../img/point1/Point1_1.jpg");
+            background-position: 40% 60%;
+            background-size: 150%;
+            width: 100%;
+        }
+    }
+
+//INTRODUCTION
+    #intro_1 {
+        background-color: $yellow;
+        overflow: hidden;
+        @include xl {
+            display: grid;
+            grid-template-areas: ". introone .";
+            grid-template-columns: auto 1200px auto;
+        }
+    }
+
+    #intro_1_container {
+        @include xl {
+            grid-area: introone;
+        }
+
+        .intro_p_width {
+            @include md {
+                width: 400px;
+            }
+        }
+    }
+
+//AUTO
+    #auto {
+        background-color: $darkgrey;
+    }
+
+    #auto_container {
+        @include xl {
+            display: grid;
+            grid-gap: 75px;
+            grid-template-columns: repeat(2,1fr);
+        }
+        @include md {
+            display: grid;
+            grid-gap: 50px;
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+
+//VS
+    #vs {
+        background-color: $darkgrey;
+    }
+
+    #vs_container {
+        background-color: $darkgrey;
+        @include xl {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        @include md {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+    }
+
+    #center {
+        text-align: center;
+        @include xl {
+            position: relative;
+            top: 200px;
+        }
+        @include md {
+            position: relative;
+            top: 200px;
+        }
+    }
+}

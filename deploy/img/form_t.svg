@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="339px" height="172px" viewBox="0 0 339 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Michael" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_Tablet_New" transform="translate(-47.000000, -5460.000000)">
+            <g id="newfooter" transform="translate(0.000000, 5369.000000)">
+                <g id="Group-4" transform="translate(47.000000, 91.000000)">
+                    <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="339" height="172"></rect>
+                    <g id="button-copy" transform="translate(112.000000, 116.000000)">
+                        <rect id="Rectangle-17" stroke="#454545" stroke-width="3" fill="#454545" x="1.5" y="1.5" width="118.033343" height="29" rx="4"></rect>
+                        <text id="Submit" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="39.1279297" y="20">Submit</tspan>
+                        </text>
+                    </g>
+                    <g id="YEAH-Copy" transform="translate(40.000000, 41.000000)">
+                        <g id="circle-checked" transform="translate(48.000000, 0.000000)">
+                            <circle id="Oval-1" stroke="#454545" stroke-width="2" fill="#FFFFFF" cx="16.5" cy="16.5" r="15.5"></circle>
+                            <circle id="Oval-2" fill="#454545" cx="16.5" cy="16.5" r="7.61538462"></circle>
+                        </g>
+                        <text id="YEAH,-FOR-SURE!" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#595959">
+                            <tspan x="14.9003906" y="51">YEAH, FOR SURE!</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-2" transform="translate(177.000000, 41.000000)">
+                        <text id="NO-WAY.-NOPE." font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#636363">
+                            <tspan x="8.30273438" y="51">NO WAY. NOPE.</tspan>
+                        </text>
+                        <g id="circle-unchecked" transform="translate(37.000000, 0.000000)" fill="#FFFFFF" stroke="#454545" stroke-width="2">
+                            <circle id="Oval-1" cx="16.5" cy="16.5" r="15.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
