@@ -22,19 +22,20 @@
 
         #hero1-bgimg {
             background-image: url("../img/point1/Point1_1.jpg");
-            width: 100%;
-            background-size: 150%;
             background-position: 40% 60%;
+            background-size: 150%;
+            width: 100%;
         }
     }
-    //INTRODUCTION
+
+//INTRODUCTION
     #intro_1 {
-        overflow: hidden;
         background-color: $yellow;
+        overflow: hidden;
         @include xl {
             display: grid;
-            grid-template-columns: auto 1200px auto;
             grid-template-areas: ". introone .";
+            grid-template-columns: auto 1200px auto;
         }
     }
 
@@ -49,8 +50,8 @@
             }
         }
     }
-    //AUTO
 
+//AUTO
     #auto {
         background-color: $darkgrey;
     }
@@ -58,16 +59,17 @@
     #auto_container {
         @include xl {
             display: grid;
-            grid-template-columns: repeat(2,1fr);
             grid-gap: 75px;
+            grid-template-columns: repeat(2,1fr);
         }
         @include md {
             display: grid;
-            grid-template-columns: repeat(2,1fr);
             grid-gap: 50px;
+            grid-template-columns: repeat(2,1fr);
         }
     }
-    //VS
+
+//VS
     #vs {
         background-color: $darkgrey;
     }
