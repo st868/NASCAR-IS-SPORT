@@ -1664,7 +1664,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -2384,7 +2384,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "GSAP",
+	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
