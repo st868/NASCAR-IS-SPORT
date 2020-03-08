@@ -392,6 +392,10 @@ ul {
   font-family: 'Oswald', sans-serif;
   color: #000; }
 
+.black-text2 {
+  font-family: 'Roboto', sans-serif;
+  color: #000; }
+
 /* =============
     Buttons
 ============= */
@@ -751,18 +755,14 @@ textarea {
     #point2-container #individual_strategies #individual_strategies_container {
       grid-area: instrategies; } }
 
-@media (min-width: 768px) {
-  #mobile {
-    display: none; } }
+#social {
+  border-top: 3px #1C1C1E;
+  border-bottom: 3px #1C1C1E;
+  padding-bottom: 15px; }
 
-@media (min-width: 1200px) {
-  #mobile {
-    display: none; } }
+#footer {
+  background-color: #ECECEC; }
 
-@media (min-width: 576px) {
-  #tablet {
-    display: none; } }
-
-@media (min-width: 1200px) {
-  #tablet {
-    display: none; } }
+#info {
+  text-align: center;
+  padding: 25px 0px 25px 0px; }
