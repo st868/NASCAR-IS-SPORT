@@ -756,7 +756,7 @@ textarea {
       grid-area: instrategies; } }
 
 #social {
-  border: 3px #1C1C1E;
+  border-bottom: 3px #1C1C1E;
   padding-bottom: 15px; }
 
 #footer {
