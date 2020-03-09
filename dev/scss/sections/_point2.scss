@@ -6,6 +6,16 @@
         }
     }
 
+    .links:link, .links:visited{
+        font-size: rem-calc(13);
+        color: white;
+    }
+
+    .links:hover, .links:active{
+        font-size: rem-calc(13);
+        color: white;
+    }
+
     #hero_2{
 
         h1{

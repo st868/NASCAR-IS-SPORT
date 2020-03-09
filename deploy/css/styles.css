@@ -1111,6 +1111,14 @@ footer {
 #point2-container .QA h4 {
   color: #0477BE; }
 
+#point2-container .links:link, #point2-container .links:visited {
+  font-size: 0.8125rem;
+  color: white; }
+
+#point2-container .links:hover, #point2-container .links:active {
+  font-size: 0.8125rem;
+  color: white; }
+
 #point2-container #hero_2 h1 {
   color: #0477BE; }
 
