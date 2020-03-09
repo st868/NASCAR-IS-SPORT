@@ -74,7 +74,9 @@
             grid-area: autoracing;
         }
         #auto {
-
+            h3{
+                padding-bottom: 20px;
+            }
             #auto_container {
                 @include xl {
                     display: grid;
@@ -247,6 +249,15 @@ overflow: hidden;
 #subfooter1{
     background-color: $yellow;
     a{
+        color: $darkgrey;
+    }
+    a:hover, a:active{
     color: $darkgrey;
+    }
+    a:link, a:visited{
+        color: $darkgrey;
+    }
+    p{
+        color: $darkgrey;
     }
 }

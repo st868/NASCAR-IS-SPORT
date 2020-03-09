@@ -45,6 +45,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/Arrow_B.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/Arrow_B.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/darkarrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -770,14 +780,6 @@
 		"oA": 0,
 		"oAP": "/deploy/point3.html",
 		"oF": 2
-		},
-	"/dev/html/sub-footer.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/html/sub-footer.html",
-		"oF": 0
 		},
 	"/dev/html/subfooter1.kit": {
 		"cB": 0,

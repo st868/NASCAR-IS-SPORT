@@ -976,6 +976,8 @@ footer {
   @media (min-width: 1200px) {
     #point1-container #autoracingcontainer #autoracing {
       grid-area: autoracing; } }
+  #point1-container #autoracingcontainer #autoracing #auto h3 {
+    padding-bottom: 20px; }
   @media (min-width: 1200px) {
     #point1-container #autoracingcontainer #autoracing #auto #auto_container {
       display: grid;
@@ -1098,6 +1100,12 @@ footer {
 #subfooter1 {
   background-color: #F9D159; }
   #subfooter1 a {
+    color: #1C1C1E; }
+  #subfooter1 a:hover, #subfooter1 a:active {
+    color: #1C1C1E; }
+  #subfooter1 a:link, #subfooter1 a:visited {
+    color: #1C1C1E; }
+  #subfooter1 p {
     color: #1C1C1E; }
 
 #point2-container .QA h4 {
