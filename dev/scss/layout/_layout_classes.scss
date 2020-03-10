@@ -313,4 +313,22 @@
 }
 }
 
+.links:link, .links:visited{
+    font-size: rem-calc(13);
+    color: white;
+    p{
+        padding-top: 5px;
+    }
+
+}
+
+.links:hover, .links:active{
+    font-size: rem-calc(13);
+    color: white;
+    p{
+        padding-top: 5px;
+    }
+}
+
+
 //subfooter

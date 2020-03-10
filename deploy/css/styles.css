@@ -702,6 +702,18 @@ footer {
     .subfooter ul .point2_subfooter img {
       transform: rotate(-90deg); }
 
+.links:link, .links:visited {
+  font-size: 0.8125rem;
+  color: white; }
+  .links:link p, .links:visited p {
+    padding-top: 5px; }
+
+.links:hover, .links:active {
+  font-size: 0.8125rem;
+  color: white; }
+  .links:hover p, .links:active p {
+    padding-top: 5px; }
+
 #backgroundvideocontainer {
   width: 100%; }
   #backgroundvideocontainer #video-container {
@@ -1110,14 +1122,6 @@ footer {
 
 #point2-container .QA h4 {
   color: #0477BE; }
-
-#point2-container .links:link, #point2-container .links:visited {
-  font-size: 0.8125rem;
-  color: white; }
-
-#point2-container .links:hover, #point2-container .links:active {
-  font-size: 0.8125rem;
-  color: white; }
 
 #point2-container #hero_2 h1 {
   color: #0477BE; }
