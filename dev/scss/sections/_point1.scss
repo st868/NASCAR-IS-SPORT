@@ -1,0 +1,263 @@
+#point1-container {
+    .QA {
+        h4 {
+            color: $yellow;
+        }
+    }
+
+    #hero_1 {
+        h1 {
+            color: $yellow;
+        }
+        //
+        .herosubheadercontainer {
+            width: 50%;
+            @include md {
+                width: 70%;
+            }
+            @include lg {
+                width: 700px;
+            }
+        }
+
+        #hero1-bgimg {
+            background-image: url("../img/point1/Point1_1.jpg");
+            background-position: 40% 60%;
+            background-size: 150%;
+            width: 100%;
+        }
+    }
+
+//INTRODUCTION
+    #intro_1 {
+        background-color: $yellow;
+        overflow: hidden;
+        h3{
+            color: $darkgrey;
+        }
+        p{
+            color: $darkgrey;
+            @include md{
+
+            }
+        }
+        @include xl {
+            display: grid;
+            grid-template-areas: ". introone .";
+            grid-template-columns: auto 1200px auto;
+        }
+    }
+
+    #intro_1_container {
+        @include xl {
+            grid-area: introone;
+        }
+
+        .intro_p_width {
+            @include md {
+                width: 400px;
+            }
+        }
+    }
+
+//AUTO
+#autoracingcontainer{
+    background-color: $darkgrey;
+    @include xl{
+        display: grid;
+        grid-template-areas: ". autoracing .";
+        grid-template-columns: auto 1200px auto;
+    }
+    #autoracing{
+
+        @include xl{
+            grid-area: autoracing;
+        }
+        #auto {
+            h3{
+                padding-bottom: 20px;
+            }
+            #auto_container {
+                @include xl {
+                    display: grid;
+                    grid-gap: 75px;
+                    grid-template-columns: repeat(2,1fr);
+                }
+                @include md {
+                    display: grid;
+                    grid-gap: 50px;
+                    grid-template-columns: repeat(2,1fr);
+                }
+            }
+        }
+    }
+}
+
+
+//big biganimation
+
+#biganimation1container{
+background-image: url('../img/point1/Point1_4.jpg');
+background-size: cover;
+overflow: hidden;
+
+@include xl{
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". biganimationone .";
+}
+#biganimation1{
+
+    @include xl{
+        grid-area: biganimationone;
+    }
+
+
+            #text1_1{
+                opacity: 0;
+                margin: 40% 17px 0 17px;
+                position: absolute;
+
+                @include md{
+                    margin: 30% 40px 0;
+                }
+
+                @include xl{
+                    margin: 400px 40px 0;
+                }
+            }
+
+            #text2_1{
+                                opacity: 0;
+                margin: 40% 17px 0 17px;
+                position: absolute;
+
+                @include md{
+                    margin: 30% 40px 0;
+                }
+
+                @include xl{
+                    margin: 400px 40px 0;
+                }
+            }
+
+            #text3_1{
+                                opacity: 0;
+                margin: 40% 17px 0 17px;
+                position: absolute;
+
+                @include md{
+                    margin: 30% 40px 0;
+                }
+
+                @include xl{
+                    margin: 400px 40px 0;
+                }
+            }
+
+            #text4_1{
+                                opacity: 0;
+                margin: 40% 17px 0 17px;
+                position: absolute;
+
+                @include md{
+                    margin: 30% 40px 0;
+                }
+
+                @include xl{
+                    margin: 400px 40px 0;
+                }
+            }
+
+            #text5_1{
+                                opacity: 0;
+                margin: 40% 17px 0 17px;
+                position: absolute;
+
+                @include md{
+                    margin: 30% 40px 0;
+                }
+
+                @include xl{
+                    margin: 400px 40px 0;
+                }
+            }
+    #motionpath1container{
+        position: relative;
+        z-index: 10000;
+        opacity: .25;
+        margin-right: -50%;
+        padding: 40px 17px;
+
+        @include md{
+            width: 700px;
+            margin-left: 40%;
+        }
+
+        @include lg{
+            width: 900px;
+        }
+
+        @include lg{
+            width: 1200px;
+        }
+    }
+    }
+}
+
+//VS
+
+#nascarfootballcontainer{
+    background-color: $darkgrey;
+    @include xl{
+        display: grid;
+        grid-template-areas: ". nascarfootball .";
+        grid-template-columns: auto 1200px auto;
+    }
+
+    #nascarfootball{
+        @include xl{
+            grid-area: nascarfootball;
+        }
+
+        #vs_container {
+            @include xl {
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+            }
+            @include md {
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+            }
+            #center {
+                text-align: center;
+                @include xl {
+                    position: relative;
+                    top: 200px;
+                }
+                @include md {
+                    position: relative;
+                    top: 200px;
+                }
+            }
+        }
+    }
+}
+
+}
+
+#subfooter1{
+    background-color: $yellow;
+    a{
+        color: $darkgrey;
+    }
+    a:hover, a:active{
+    color: $darkgrey;
+    }
+    a:link, a:visited{
+        color: $darkgrey;
+    }
+    p{
+        color: $darkgrey;
+    }
+}

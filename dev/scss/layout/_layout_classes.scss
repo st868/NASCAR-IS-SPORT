@@ -196,6 +196,25 @@
 }
 }
 
+.biganimation{
+    h2{
+        font-family: 'din-condensed', sans-serif;
+        font-size: rem-calc(55);
+
+        @include md{
+        font-size: rem-calc(80);
+        }
+
+        @include lg{
+        font-size: rem-calc(90);
+        }
+
+        @include xl{
+            font-size: rem-calc(100);
+        }
+    }
+}
+
 //THIS IS FOR ADDING PADDING TO ANY ELEMENT THAT YOU NEED. SEE POINT 2'S PAGE FOR EXAMPLE.
 .sectionsidepadding{
     padding: 0 17px 0 52px;
@@ -218,3 +237,98 @@
         padding: 60px 0;
     }
 }
+
+.subfooter{
+    @include md{
+        display: grid;
+        grid-template-columns: auto 600px auto;
+        grid-template-areas: ". subfootertwo .";
+    }
+
+    ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    @include md{
+        grid-area: subfootertwo;
+    }
+
+    a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    p{
+    text-align: center;
+    color: white;
+    }
+    a:link, a:visited{
+        color: white;
+        transition: .25s;
+    }
+
+    a:hover, a:active{
+        text-decoration: underline;
+        color: white;
+        font-weight: 500;
+
+                }
+
+
+    span{
+        display: none;
+        @include md{
+            display: block;
+        }
+    }
+
+    li{
+        padding: 0 0 30px 0;
+
+        @include md{
+            padding: 50px 0 80px 0;
+        }
+    }
+    .point1_subfooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            transform: rotate(90deg);
+        }
+    }
+
+    .point2_subfooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            transform: rotate(-90deg);
+        }
+    }
+
+
+}
+}
+
+.links:link, .links:visited{
+    font-size: rem-calc(13);
+    color: white;
+    p{
+        padding-top: 5px;
+    }
+
+}
+
+.links:hover, .links:active{
+    font-size: rem-calc(13);
+    color: white;
+    p{
+        padding-top: 5px;
+    }
+}
+
+
+//subfooter

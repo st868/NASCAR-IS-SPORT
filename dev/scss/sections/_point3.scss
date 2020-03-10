@@ -1,5 +1,5 @@
 #point3-container{
-    max-width: 1400px;
+    // max-width: 1400px;
     .QAcontainer{
         h4{
             color: $red;
@@ -40,8 +40,11 @@
         }
         @include lg{
             grid-gap: 40px;
-            grid-template-columns: "35% 65%";
+            ;
         }
+    }
+    h1{
+        color: $red;
     }
     #hero3-bgimg{
         background-image: url("../img/point3/hero.jpg");
@@ -50,12 +53,29 @@
         height: 500px;
     }
 
-    #intro{
+    #hero_3{
+        border-bottom: 1px solid $lightgrey;
+    }
+
+
+#intro3xlcontainer{
+    background-color: $darkgrey;
+    @include xl{
+        display: grid;
+        grid-template-columns:auto 1200px auto;
+        grid-template-areas: ". introthree .";
+    }
+    #intro3xl{
+        @include xl{
+               grid-area: introthree;
+           }
+    #intro3{
         #introCopy{
             h3{
                 padding-bottom: 17px;
             }
         }
+
         #introImage{
             div{
                 height: 30vh;
@@ -71,7 +91,23 @@
             }
         }
     }
+        }
+    }
+
+    #trainingxlwidthcontainer{
+        background-color: $darkgrey;
+        @include xl{
+            display: grid;
+            grid-template-columns:auto 1200px auto;
+            grid-template-areas: ". training .";
+        }
+        #trainingxlwidth{
+            @include xl{
+                   grid-area: training;
+               }
     #training{
+
+
         #trainingCopy{
             h3{
                 display: block;
@@ -93,8 +129,24 @@
                     margin-top: 0;
                 }
             }
+
+        }
         }
     }
+    }
+
+    #physicsxlcontainer{
+        background-color: $darkgrey;
+        @include xl{
+            display: grid;
+            grid-template-columns: auto 1200px auto;
+            grid-template-areas: ". physics .";
+        }
+        #physicscontainer{
+            @include xl{
+                grid-area: physics;
+            }
+
     #physics{
         #physicsCopy{
             h3{
@@ -129,6 +181,7 @@
                 padding: 15px;
             }
             h4{
+                color: white;
                 grid-area: title;
             }
             #labelA{
@@ -141,15 +194,128 @@
                 grid-area: labelC;
             }
             #car{
+                color: white;
                 grid-area:logoA;
             }
             #flag{
+                color: white;
                 grid-area:logoB;
             }#spaceShuttle{
+                color: white;
                 grid-area:logoC;
             }
         }
     }
+}
+}
+
+    #biganimation3container{
+    background-image: url('../img/point3/text3_bg.jpg');
+    background-size: cover;
+    overflow: hidden;
+
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". biganimationtwo .";
+    }
+    #biganimation3{
+
+        @include xl{
+            grid-area: biganimationtwo;
+        }
+
+
+                #text1_3{
+                    opacity: 0;
+                    margin: 40% 17px 0 17px;
+                    position: absolute;
+
+                    @include md{
+                        margin: 30% 40px 0;
+                    }
+
+                    @include xl{
+                        margin: 400px 40px 0;
+                    }
+                }
+
+                #text2_3{
+                                    opacity: 0;
+                    margin: 40% 17px 0 17px;
+                    position: absolute;
+
+                    @include md{
+                        margin: 30% 40px 0;
+                    }
+
+                    @include xl{
+                        margin: 400px 40px 0;
+                    }
+                }
+
+                #text3_3{
+                                    opacity: 0;
+                    margin: 40% 17px 0 17px;
+                    position: absolute;
+
+                    @include md{
+                        margin: 30% 40px 0;
+                    }
+
+                    @include xl{
+                        margin: 400px 40px 0;
+                    }
+                }
+
+                #text4_3{
+                                    opacity: 0;
+                    margin: 40% 17px 0 17px;
+                    position: absolute;
+
+                    @include md{
+                        margin: 30% 40px 0;
+                    }
+
+                    @include xl{
+                        margin: 400px 40px 0;
+                    }
+                }
+
+        #motionpath3container{
+            position: relative;
+            z-index: 10000;
+            opacity: .25;
+            margin-right: -50%;
+            padding: 40px 17px;
+
+            @include md{
+                width: 700px;
+                margin-left: 40%;
+            }
+
+            @include lg{
+                width: 900px;
+            }
+
+            @include lg{
+                width: 1200px;
+            }
+        }
+        }
+    }
+
+#insidethecarxlcontainer{
+    background-color: $darkgrey;
+    @include xl{
+        display: grid;
+        grid-template-columns:auto 1200px auto;
+        grid-template-areas: ". insidethecar .";
+    }
+    #insidethecarxl{
+        @include xl{
+               grid-area: insidethecar;
+           }
     #insideTheCar{
         #insideTheCarCopy{
             h3{
@@ -174,4 +340,10 @@
             }
         }
     }
+}
+}
+}
+
+#subfooter3{
+    background-color: $red;
 }

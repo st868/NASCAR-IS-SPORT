@@ -1,3 +1,47 @@
 /* =============
     Footer
 ============= */
+footer{
+    background-color:  $subheadgrey;
+    @include xl{
+        display: grid;
+        grid-template-areas: ". footerwidth .";
+        grid-template-columns: auto 1200px auto;
+    }
+#footergrid{
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+    @include md{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include xl{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-area: footerwidth;
+    }
+    .info{
+        padding: 25px 0px 25px 0px;
+        text-align: center;
+
+        @include md{
+            border-left: 3px $darkgrey;
+            padding-left:100px;
+            text-align: center;
+        }
+
+        @include xl{
+            border-left: 3px $darkgrey;
+            padding-left:100px;
+            text-align: center;
+        }
+
+        .social{
+            border: 3px $darkgrey;
+            padding-bottom: 15px;
+        }
+
+    }
+}
+}

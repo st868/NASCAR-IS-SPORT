@@ -380,12 +380,28 @@ p {
   font-family: 'Roboto', sans-serif;
   color: #c0c0c0; }
 
+ol {
+  font-family: 'Roboto', sans-serif;
+  color: #c0c0c0; }
+
+ul {
+  font-family: 'Roboto', sans-serif;
+  color: #c0c0c0; }
+
 .uk-accordion-title {
   font-family: 'Roboto', sans-serif;
   font-size: 0.9375rem;
   color: #c0c0c0;
   padding-top: 4px;
   opacity: .5; }
+
+.black-text {
+  font-family: 'Oswald', sans-serif;
+  color: #000; }
+
+.black-text2 {
+  font-family: 'Roboto', sans-serif;
+  color: #000; }
 
 /* =============
     Buttons
@@ -414,6 +430,42 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #ECECEC; }
+  @media (min-width: 1200px) {
+    footer {
+      display: grid;
+      grid-template-areas: ". footerwidth .";
+      grid-template-columns: auto 1200px auto; } }
+  footer #footergrid {
+    padding: 25px 0px 25px 0px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      footer #footergrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1200px) {
+      footer #footergrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-area: footerwidth; } }
+    footer #footergrid .info {
+      padding: 25px 0px 25px 0px;
+      text-align: center; }
+      @media (min-width: 768px) {
+        footer #footergrid .info {
+          border-left: 3px #1C1C1E;
+          padding-left: 100px;
+          text-align: center; } }
+      @media (min-width: 1200px) {
+        footer #footergrid .info {
+          border-left: 3px #1C1C1E;
+          padding-left: 100px;
+          text-align: center; } }
+      footer #footergrid .info .social {
+        border: 3px #1C1C1E;
+        padding-bottom: 15px; }
+
 .point_hero {
   padding-top: 60px;
   background-color: #1C1C1E;
@@ -568,6 +620,19 @@ textarea {
         font-size: 1.5rem;
         padding-left: 5px; } }
 
+.biganimation h2 {
+  font-family: 'din-condensed', sans-serif;
+  font-size: 3.4375rem; }
+  @media (min-width: 768px) {
+    .biganimation h2 {
+      font-size: 5rem; } }
+  @media (min-width: 992px) {
+    .biganimation h2 {
+      font-size: 5.625rem; } }
+  @media (min-width: 1200px) {
+    .biganimation h2 {
+      font-size: 6.25rem; } }
+
 .sectionsidepadding {
   padding: 0 17px 0 52px; }
   @media (min-width: 768px) {
@@ -586,6 +651,77 @@ textarea {
     .sectiontopbottompadding {
       padding: 60px 0; } }
 
+@media (min-width: 768px) {
+  .subfooter {
+    display: grid;
+    grid-template-columns: auto 600px auto;
+    grid-template-areas: ". subfootertwo ."; } }
+
+.subfooter ul {
+  display: grid;
+  grid-template-columns: auto auto; }
+  @media (min-width: 768px) {
+    .subfooter ul {
+      grid-area: subfootertwo; } }
+  .subfooter ul a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; }
+  .subfooter ul p {
+    text-align: center;
+    color: white; }
+  .subfooter ul a:link, .subfooter ul a:visited {
+    color: white;
+    transition: .25s; }
+  .subfooter ul a:hover, .subfooter ul a:active {
+    text-decoration: underline;
+    color: white;
+    font-weight: 500; }
+  .subfooter ul span {
+    display: none; }
+    @media (min-width: 768px) {
+      .subfooter ul span {
+        display: block; } }
+  .subfooter ul li {
+    padding: 0 0 30px 0; }
+    @media (min-width: 768px) {
+      .subfooter ul li {
+        padding: 50px 0 80px 0; } }
+  .subfooter ul .point1_subfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .subfooter ul .point1_subfooter img {
+      transform: rotate(90deg); }
+  .subfooter ul .point2_subfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .subfooter ul .point2_subfooter img {
+      transform: rotate(-90deg); }
+
+.links:link, .links:visited {
+  font-size: 0.8125rem;
+  color: white; }
+  .links:link p, .links:visited p {
+    padding-top: 5px; }
+
+.links:hover, .links:active {
+  font-size: 0.8125rem;
+  color: white; }
+  .links:hover p, .links:active p {
+    padding-top: 5px; }
+
+#backgroundvideocontainer {
+  width: 100%; }
+  #backgroundvideocontainer #video-container {
+    position: relative; }
+    #backgroundvideocontainer #video-container video {
+      filter: brightness(35%);
+      width: 100%; }
+
 #nascarhome {
   background-color: #1C1C1E; }
   @media (min-width: 1200px) {
@@ -595,6 +731,42 @@ textarea {
       grid-template-areas: ". nascarhome ."; } }
   #nascarhome #nascarhomecontainer {
     grid-area: nascarhome; }
+    #nascarhome #nascarhomecontainer #homehero {
+      position: relative;
+      padding: 40px 17px; }
+      @media (min-width: 768px) {
+        #nascarhome #nascarhomecontainer #homehero {
+          padding: 0 40px;
+          margin-top: -300px; } }
+      @media (min-width: 992px) {
+        #nascarhome #nascarhomecontainer #homehero {
+          margin-top: -500px;
+          padding: 100px 40px; } }
+      @media (min-width: 1200px) {
+        #nascarhome #nascarhomecontainer #homehero {
+          margin-top: -700px; } }
+      @media (min-width: 768px) {
+        #nascarhome #nascarhomecontainer #homehero #homehero_container h2 {
+          font-size: 2.5rem;
+          line-height: 2.8125rem; } }
+      @media (min-width: 992px) {
+        #nascarhome #nascarhomecontainer #homehero #homehero_container h2 {
+          font-size: 3.75rem;
+          line-height: 4.0625rem; } }
+      @media (min-width: 1200px) {
+        #nascarhome #nascarhomecontainer #homehero #homehero_container h2 {
+          font-size: 5.25rem;
+          line-height: 5.25rem; } }
+      #nascarhome #nascarhomecontainer #homehero #homehero_container p {
+        padding-bottom: 10px; }
+        @media (min-width: 992px) {
+          #nascarhome #nascarhomecontainer #homehero #homehero_container p {
+            font-size: 1.25rem; } }
+      #nascarhome #nascarhomecontainer #homehero #homehero_container img {
+        padding: 30px 0 0 0; }
+      @media (min-width: 768px) {
+        #nascarhome #nascarhomecontainer #homehero #homehero_container {
+          width: 70%; } }
     #nascarhome #nascarhomecontainer #quicklinks {
       padding: 40px 0;
       border-bottom: 1px solid #c0c0c0; }
@@ -764,6 +936,190 @@ textarea {
             #nascarhome #nascarhomecontainer #signup .contactform .button button {
               padding: 13px 45px; } }
 
+#point1-container .QA h4 {
+  color: #F9D159; }
+
+#point1-container #hero_1 h1 {
+  color: #F9D159; }
+
+#point1-container #hero_1 .herosubheadercontainer {
+  width: 50%; }
+  @media (min-width: 768px) {
+    #point1-container #hero_1 .herosubheadercontainer {
+      width: 70%; } }
+  @media (min-width: 992px) {
+    #point1-container #hero_1 .herosubheadercontainer {
+      width: 700px; } }
+
+#point1-container #hero_1 #hero1-bgimg {
+  background-image: url("../img/point1/Point1_1.jpg");
+  background-position: 40% 60%;
+  background-size: 150%;
+  width: 100%; }
+
+#point1-container #intro_1 {
+  background-color: #F9D159;
+  overflow: hidden; }
+  #point1-container #intro_1 h3 {
+    color: #1C1C1E; }
+  #point1-container #intro_1 p {
+    color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point1-container #intro_1 {
+      display: grid;
+      grid-template-areas: ". introone .";
+      grid-template-columns: auto 1200px auto; } }
+
+@media (min-width: 1200px) {
+  #point1-container #intro_1_container {
+    grid-area: introone; } }
+
+@media (min-width: 768px) {
+  #point1-container #intro_1_container .intro_p_width {
+    width: 400px; } }
+
+#point1-container #autoracingcontainer {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point1-container #autoracingcontainer {
+      display: grid;
+      grid-template-areas: ". autoracing .";
+      grid-template-columns: auto 1200px auto; } }
+  @media (min-width: 1200px) {
+    #point1-container #autoracingcontainer #autoracing {
+      grid-area: autoracing; } }
+  #point1-container #autoracingcontainer #autoracing #auto h3 {
+    padding-bottom: 20px; }
+  @media (min-width: 1200px) {
+    #point1-container #autoracingcontainer #autoracing #auto #auto_container {
+      display: grid;
+      grid-gap: 75px;
+      grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 768px) {
+    #point1-container #autoracingcontainer #autoracing #auto #auto_container {
+      display: grid;
+      grid-gap: 50px;
+      grid-template-columns: repeat(2, 1fr); } }
+
+#point1-container #biganimation1container {
+  background-image: url("../img/point1/Point1_4.jpg");
+  background-size: cover;
+  overflow: hidden; }
+  @media (min-width: 1200px) {
+    #point1-container #biganimation1container {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". biganimationone ."; } }
+  @media (min-width: 1200px) {
+    #point1-container #biganimation1container #biganimation1 {
+      grid-area: biganimationone; } }
+  #point1-container #biganimation1container #biganimation1 #text1_1 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point1-container #biganimation1container #biganimation1 #text1_1 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point1-container #biganimation1container #biganimation1 #text1_1 {
+        margin: 400px 40px 0; } }
+  #point1-container #biganimation1container #biganimation1 #text2_1 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point1-container #biganimation1container #biganimation1 #text2_1 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point1-container #biganimation1container #biganimation1 #text2_1 {
+        margin: 400px 40px 0; } }
+  #point1-container #biganimation1container #biganimation1 #text3_1 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point1-container #biganimation1container #biganimation1 #text3_1 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point1-container #biganimation1container #biganimation1 #text3_1 {
+        margin: 400px 40px 0; } }
+  #point1-container #biganimation1container #biganimation1 #text4_1 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point1-container #biganimation1container #biganimation1 #text4_1 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point1-container #biganimation1container #biganimation1 #text4_1 {
+        margin: 400px 40px 0; } }
+  #point1-container #biganimation1container #biganimation1 #text5_1 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point1-container #biganimation1container #biganimation1 #text5_1 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point1-container #biganimation1container #biganimation1 #text5_1 {
+        margin: 400px 40px 0; } }
+  #point1-container #biganimation1container #biganimation1 #motionpath1container {
+    position: relative;
+    z-index: 10000;
+    opacity: .25;
+    margin-right: -50%;
+    padding: 40px 17px; }
+    @media (min-width: 768px) {
+      #point1-container #biganimation1container #biganimation1 #motionpath1container {
+        width: 700px;
+        margin-left: 40%; } }
+    @media (min-width: 992px) {
+      #point1-container #biganimation1container #biganimation1 #motionpath1container {
+        width: 900px; } }
+    @media (min-width: 992px) {
+      #point1-container #biganimation1container #biganimation1 #motionpath1container {
+        width: 1200px; } }
+
+#point1-container #nascarfootballcontainer {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point1-container #nascarfootballcontainer {
+      display: grid;
+      grid-template-areas: ". nascarfootball .";
+      grid-template-columns: auto 1200px auto; } }
+  @media (min-width: 1200px) {
+    #point1-container #nascarfootballcontainer #nascarfootball {
+      grid-area: nascarfootball; } }
+  @media (min-width: 1200px) {
+    #point1-container #nascarfootballcontainer #nascarfootball #vs_container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); } }
+  @media (min-width: 768px) {
+    #point1-container #nascarfootballcontainer #nascarfootball #vs_container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); } }
+  #point1-container #nascarfootballcontainer #nascarfootball #vs_container #center {
+    text-align: center; }
+    @media (min-width: 1200px) {
+      #point1-container #nascarfootballcontainer #nascarfootball #vs_container #center {
+        position: relative;
+        top: 200px; } }
+    @media (min-width: 768px) {
+      #point1-container #nascarfootballcontainer #nascarfootball #vs_container #center {
+        position: relative;
+        top: 200px; } }
+
+#subfooter1 {
+  background-color: #F9D159; }
+  #subfooter1 a {
+    color: #1C1C1E; }
+  #subfooter1 a:hover, #subfooter1 a:active {
+    color: #1C1C1E; }
+  #subfooter1 a:link, #subfooter1 a:visited {
+    color: #1C1C1E; }
+  #subfooter1 p {
+    color: #1C1C1E; }
+
 #point2-container .QA h4 {
   color: #0477BE; }
 
@@ -845,47 +1201,326 @@ textarea {
   @media (min-width: 1200px) {
     #point2-container #individual_strategies #individual_strategies_container {
       grid-area: instrategies; } }
-
-#point3-container {
-  max-width: 1400px; }
-  #point3-container .QAcontainer h4 {
-    color: #DD002A; }
-  #point3-container .sectionBase {
-    padding: 47px 17px 47px 52px;
-    background-color: #1C1C1E; }
-    @media (min-width: 768px) {
-      #point3-container .sectionBase {
-        padding: 68px 48; } }
-    @media (min-width: 992px) {
-      #point3-container .sectionBase {
-        padding: 60px 42; } }
-  #point3-container .titlePadding {
-    padding-bottom: 17px; }
-  #point3-container .caption {
-    padding-top: 10px;
-    font-size: 0.75rem; }
-  #point3-container .bigSection {
-    grid-area: big; }
-  #point3-container .smallSection {
-    grid-area: small; }
   @media (min-width: 768px) {
-    #point3-container .gridMain {
+    #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer {
       display: grid;
-      grid-gap: 17px;
-      grid-template-columns: "40% 60%";
-      grid-template-areas: "small big"; } }
+      grid-template-columns: auto 60%;
+      grid-template-areas: "drivetimes drivepg" "carsontracktwo carsontrackpg" "interiortwo interiorpg";
+      grid-row-gap: 60px;
+      grid-column-gap: 40px;
+      padding-top: 50px; } }
   @media (min-width: 992px) {
-    #point3-container .gridMain {
-      grid-gap: 40px;
-      grid-template-columns: "35% 65%"; } }
-  #point3-container #hero3-bgimg {
-    background-image: url("../img/point3/hero.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 500px; }
-  #point3-container #intro #introCopy h3 {
+    #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer {
+      grid-template-columns: auto 71%; } }
+  #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer .sectionsidepadding {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    @media (min-width: 768px) {
+      #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer .sectionsidepadding {
+        padding-top: 0; } }
+  #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer h5 {
+    padding-bottom: 7px; }
+    @media (min-width: 992px) {
+      #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer h5 {
+        padding: 0 0 0 0; } }
+  #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #c0c0c0; }
+    @media (min-width: 768px) {
+      #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is1 {
+        border: none;
+        grid-area: drivetimes;
+        padding: 0;
+        margin: 0 0 0 20%; } }
+  @media (min-width: 768px) {
+    #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is2 {
+      grid-area: drivepg; } }
+  #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is3 div {
+    background-image: url("../img/point2/carsontrack.jpg");
+    width: 100%;
+    height: 340px;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is3 div {
+        height: 300px;
+        margin: 0 0 0 48px; } }
+  @media (min-width: 768px) {
+    #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is3 {
+      grid-area: carsontracktwo; } }
+  #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is4 {
+    border-bottom: 1px solid #c0c0c0; }
+    @media (min-width: 768px) {
+      #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is4 {
+        border: none;
+        grid-area: carsontrackpg; } }
+  @media (min-width: 768px) {
+    #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is5 {
+      border: none;
+      grid-area: interiorpg; } }
+  #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is6 div {
+    background-image: url("../img/point2/interior.jpg");
+    width: 100%;
+    height: 340px;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is6 div {
+        height: 300px;
+        margin: 0 0 0 48px; } }
+  @media (min-width: 768px) {
+    #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is6 {
+      border: none;
+      grid-area: interiortwo; } }
+
+#point2-container #biganimation2container {
+  background-image: url("../img/point2/text-bg.jpg");
+  background-size: cover;
+  overflow: hidden; }
+  @media (min-width: 1200px) {
+    #point2-container #biganimation2container {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". biganimationtwo ."; } }
+  @media (min-width: 1200px) {
+    #point2-container #biganimation2container #biganimation2 {
+      grid-area: biganimationtwo; } }
+  #point2-container #biganimation2container #biganimation2 #text1_2 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point2-container #biganimation2container #biganimation2 #text1_2 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point2-container #biganimation2container #biganimation2 #text1_2 {
+        margin: 400px 40px 0; } }
+  #point2-container #biganimation2container #biganimation2 #text2_2 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point2-container #biganimation2container #biganimation2 #text2_2 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point2-container #biganimation2container #biganimation2 #text2_2 {
+        margin: 400px 40px 0; } }
+  #point2-container #biganimation2container #biganimation2 #text3_2 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point2-container #biganimation2container #biganimation2 #text3_2 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point2-container #biganimation2container #biganimation2 #text3_2 {
+        margin: 400px 40px 0; } }
+  #point2-container #biganimation2container #biganimation2 #text4_2 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point2-container #biganimation2container #biganimation2 #text4_2 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point2-container #biganimation2container #biganimation2 #text4_2 {
+        margin: 400px 40px 0; } }
+  #point2-container #biganimation2container #biganimation2 #text5_2 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point2-container #biganimation2container #biganimation2 #text5_2 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point2-container #biganimation2container #biganimation2 #text5_2 {
+        margin: 400px 40px 0; } }
+  #point2-container #biganimation2container #biganimation2 #motionpath2container {
+    position: relative;
+    z-index: 10000;
+    opacity: .25;
+    margin-right: -50%;
+    padding: 40px 17px; }
+    @media (min-width: 768px) {
+      #point2-container #biganimation2container #biganimation2 #motionpath2container {
+        width: 700px;
+        margin-left: 40%; } }
+    @media (min-width: 992px) {
+      #point2-container #biganimation2container #biganimation2 #motionpath2container {
+        width: 900px; } }
+    @media (min-width: 992px) {
+      #point2-container #biganimation2container #biganimation2 #motionpath2container {
+        width: 1200px; } }
+
+#point2-container #team_strategies {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point2-container #team_strategies {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". instrategies ."; } }
+  @media (min-width: 1200px) {
+    #point2-container #team_strategies #team_strategies_container {
+      grid-area: instrategies; } }
+  @media (min-width: 768px) {
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer {
+      display: grid;
+      grid-template-columns: auto 60%;
+      grid-template-areas: "pittimes fastpg" "bluepit techpg" "nightpit togetherpg";
+      grid-row-gap: 60px;
+      grid-column-gap: 40px;
+      padding-top: 50px; } }
+  @media (min-width: 992px) {
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer {
+      grid-template-columns: auto 71%; } }
+  #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer .sectionsidepadding {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    @media (min-width: 768px) {
+      #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer .sectionsidepadding {
+        padding-top: 0; } }
+  #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer h5 {
+    padding-bottom: 7px; }
+    @media (min-width: 992px) {
+      #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer h5 {
+        padding: 0 0 0 0; } }
+  #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts1 {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #c0c0c0; }
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts1 p {
+      padding-top: 30px;
+      font-size: 0.8125rem; }
+    @media (min-width: 768px) {
+      #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts1 {
+        border: none;
+        grid-area: pittimes;
+        padding: 0;
+        margin: 0 0 0 20%; } }
+  @media (min-width: 768px) {
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts2 {
+      grid-area: fastpg; } }
+  #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts3 div {
+    background-image: url("../img/point2/pitcrew2.jpg");
+    width: 100%;
+    height: 340px;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts3 div {
+        height: 300px;
+        margin: 0 0 0 48px; } }
+  @media (min-width: 768px) {
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts3 {
+      grid-area: bluepit; } }
+  #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts4 {
+    border-bottom: 1px solid #c0c0c0; }
+    @media (min-width: 768px) {
+      #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts4 {
+        border: none;
+        grid-area: techpg; } }
+  @media (min-width: 768px) {
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts5 {
+      border: none;
+      grid-area: togetherpg; } }
+  #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts6 div {
+    background-image: url("../img/point2/pitcrew1.jpg");
+    width: 100%;
+    height: 340px;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts6 div {
+        height: 300px;
+        margin: 0 0 0 48px; } }
+  @media (min-width: 768px) {
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts6 {
+      border: none;
+      grid-area: nightpit; } }
+
+#point2-container #tldr {
+  background-image: url("../img/point2/tldr-bg.jpg");
+  background-size: cover; }
+  @media (min-width: 1200px) {
+    #point2-container #tldr {
+      display: grid;
+      grid-template-areas: ". tldrcont .";
+      grid-template-columns: auto 1200px auto; } }
+  @media (min-width: 1200px) {
+    #point2-container #tldr #tldrcontainer {
+      grid-area: tldrcont; } }
+  @media (min-width: 768px) {
+    #point2-container #tldr #tldrcontainer #tldrpgcontainer {
+      width: 400px;
+      margin: 0 0 0 28%; } }
+  #point2-container #tldr #tldrcontainer #tldrpgcontainer p {
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    color: white; }
+
+#subfooter2 {
+  background-color: #0477BE; }
+
+#point3-container .QAcontainer h4 {
+  color: #DD002A; }
+
+#point3-container .sectionBase {
+  padding: 47px 17px 47px 52px;
+  background-color: #1C1C1E; }
+  @media (min-width: 768px) {
+    #point3-container .sectionBase {
+      padding: 68px 48; } }
+  @media (min-width: 992px) {
+    #point3-container .sectionBase {
+      padding: 60px 42; } }
+
+#point3-container .titlePadding {
+  padding-bottom: 17px; }
+
+#point3-container .caption {
+  padding-top: 10px;
+  font-size: 0.75rem; }
+
+#point3-container .bigSection {
+  grid-area: big; }
+
+#point3-container .smallSection {
+  grid-area: small; }
+
+@media (min-width: 768px) {
+  #point3-container .gridMain {
+    display: grid;
+    grid-gap: 17px;
+    grid-template-columns: "40% 60%";
+    grid-template-areas: "small big"; } }
+
+@media (min-width: 992px) {
+  #point3-container .gridMain {
+    grid-gap: 40px; } }
+
+#point3-container h1 {
+  color: #DD002A; }
+
+#point3-container #hero3-bgimg {
+  background-image: url("../img/point3/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px; }
+
+#point3-container #hero_3 {
+  border-bottom: 1px solid #c0c0c0; }
+
+#point3-container #intro3xlcontainer {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point3-container #intro3xlcontainer {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". introthree ."; } }
+  @media (min-width: 1200px) {
+    #point3-container #intro3xlcontainer #intro3xl {
+      grid-area: introthree; } }
+  #point3-container #intro3xlcontainer #intro3xl #intro3 #introCopy h3 {
     padding-bottom: 17px; }
-  #point3-container #intro #introImage div {
+  #point3-container #intro3xlcontainer #intro3xl #intro3 #introImage div {
     height: 30vh;
     width: 100%;
     margin-top: 52px;
@@ -894,12 +1529,23 @@ textarea {
     background-position: center;
     background-size: cover; }
     @media (min-width: 768px) {
-      #point3-container #intro #introImage div {
+      #point3-container #intro3xlcontainer #intro3xl #intro3 #introImage div {
         margin-top: 0; } }
-  #point3-container #training #trainingCopy h3 {
+
+#point3-container #trainingxlwidthcontainer {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point3-container #trainingxlwidthcontainer {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". training ."; } }
+  @media (min-width: 1200px) {
+    #point3-container #trainingxlwidthcontainer #trainingxlwidth {
+      grid-area: training; } }
+  #point3-container #trainingxlwidthcontainer #trainingxlwidth #training #trainingCopy h3 {
     display: block;
     padding-bottom: 17px; }
-  #point3-container #training #trainingImage div {
+  #point3-container #trainingxlwidthcontainer #trainingxlwidth #training #trainingImage div {
     height: 30vh;
     width: 100%;
     margin-top: 52px;
@@ -908,12 +1554,23 @@ textarea {
     background-position: center;
     background-size: cover; }
     @media (min-width: 768px) {
-      #point3-container #training #trainingImage div {
+      #point3-container #trainingxlwidthcontainer #trainingxlwidth #training #trainingImage div {
         margin-top: 0; } }
-  #point3-container #physics #physicsCopy h3 {
+
+#point3-container #physicsxlcontainer {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point3-container #physicsxlcontainer {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". physics ."; } }
+  @media (min-width: 1200px) {
+    #point3-container #physicsxlcontainer #physicscontainer {
+      grid-area: physics; } }
+  #point3-container #physicsxlcontainer #physicscontainer #physics #physicsCopy h3 {
     display: block;
     padding-bottom: 17px; }
-  #point3-container #physics #physicsImage {
+  #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage {
     margin-top: 52px;
     text-align: center;
     width: 100%;
@@ -921,35 +1578,119 @@ textarea {
     grid-template-columns: "50% 50%";
     grid-template-areas: "title title" "logoA labelA" "logoB labelB" "logoC labelC"; }
     @media (min-width: 768px) {
-      #point3-container #physics #physicsImage {
+      #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage {
         width: 300px;
         margin-top: 0; } }
     @media (min-width: 992px) {
-      #point3-container #physics #physicsImage {
+      #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage {
         width: 400px; } }
-    #point3-container #physics #physicsImage i {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage i {
       padding: 15px;
       font-size: 2.5rem; }
-    #point3-container #physics #physicsImage p {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage p {
       padding: 15px; }
-    #point3-container #physics #physicsImage h4 {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage h4 {
+      color: white;
       grid-area: title; }
-    #point3-container #physics #physicsImage #labelA {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage #labelA {
       grid-area: labelA; }
-    #point3-container #physics #physicsImage #labelB {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage #labelB {
       grid-area: labelB; }
-    #point3-container #physics #physicsImage #labelC {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage #labelC {
       grid-area: labelC; }
-    #point3-container #physics #physicsImage #car {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage #car {
+      color: white;
       grid-area: logoA; }
-    #point3-container #physics #physicsImage #flag {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage #flag {
+      color: white;
       grid-area: logoB; }
-    #point3-container #physics #physicsImage #spaceShuttle {
+    #point3-container #physicsxlcontainer #physicscontainer #physics #physicsImage #spaceShuttle {
+      color: white;
       grid-area: logoC; }
-  #point3-container #insideTheCar #insideTheCarCopy h3 {
+
+#point3-container #biganimation3container {
+  background-image: url("../img/point3/text3_bg.jpg");
+  background-size: cover;
+  overflow: hidden; }
+  @media (min-width: 1200px) {
+    #point3-container #biganimation3container {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". biganimationtwo ."; } }
+  @media (min-width: 1200px) {
+    #point3-container #biganimation3container #biganimation3 {
+      grid-area: biganimationtwo; } }
+  #point3-container #biganimation3container #biganimation3 #text1_3 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point3-container #biganimation3container #biganimation3 #text1_3 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point3-container #biganimation3container #biganimation3 #text1_3 {
+        margin: 400px 40px 0; } }
+  #point3-container #biganimation3container #biganimation3 #text2_3 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point3-container #biganimation3container #biganimation3 #text2_3 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point3-container #biganimation3container #biganimation3 #text2_3 {
+        margin: 400px 40px 0; } }
+  #point3-container #biganimation3container #biganimation3 #text3_3 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point3-container #biganimation3container #biganimation3 #text3_3 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point3-container #biganimation3container #biganimation3 #text3_3 {
+        margin: 400px 40px 0; } }
+  #point3-container #biganimation3container #biganimation3 #text4_3 {
+    opacity: 0;
+    margin: 40% 17px 0 17px;
+    position: absolute; }
+    @media (min-width: 768px) {
+      #point3-container #biganimation3container #biganimation3 #text4_3 {
+        margin: 30% 40px 0; } }
+    @media (min-width: 1200px) {
+      #point3-container #biganimation3container #biganimation3 #text4_3 {
+        margin: 400px 40px 0; } }
+  #point3-container #biganimation3container #biganimation3 #motionpath3container {
+    position: relative;
+    z-index: 10000;
+    opacity: .25;
+    margin-right: -50%;
+    padding: 40px 17px; }
+    @media (min-width: 768px) {
+      #point3-container #biganimation3container #biganimation3 #motionpath3container {
+        width: 700px;
+        margin-left: 40%; } }
+    @media (min-width: 992px) {
+      #point3-container #biganimation3container #biganimation3 #motionpath3container {
+        width: 900px; } }
+    @media (min-width: 992px) {
+      #point3-container #biganimation3container #biganimation3 #motionpath3container {
+        width: 1200px; } }
+
+#point3-container #insidethecarxlcontainer {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point3-container #insidethecarxlcontainer {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". insidethecar ."; } }
+  @media (min-width: 1200px) {
+    #point3-container #insidethecarxlcontainer #insidethecarxl {
+      grid-area: insidethecar; } }
+  #point3-container #insidethecarxlcontainer #insidethecarxl #insideTheCar #insideTheCarCopy h3 {
     display: block;
     padding-bottom: 17px; }
-  #point3-container #insideTheCar #insideTheCarImage div {
+  #point3-container #insidethecarxlcontainer #insidethecarxl #insideTheCar #insideTheCarImage div {
     height: 30vh;
     width: 100%;
     margin-top: 52px;
@@ -958,5 +1699,15 @@ textarea {
     background-position: center;
     background-size: cover; }
     @media (min-width: 768px) {
-      #point3-container #insideTheCar #insideTheCarImage div {
+      #point3-container #insidethecarxlcontainer #insidethecarxl #insideTheCar #insideTheCarImage div {
         margin-top: 0; } }
+
+#subfooter3 {
+  background-color: #DD002A; }
+
+#sub {
+  background-color: #F9D159;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 50px 0px 50px 0px;
+  text-align: center; }

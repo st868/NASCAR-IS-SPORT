@@ -68,10 +68,30 @@ p{
     color: $lightgrey;
 }
 
+ol{
+    font-family: 'Roboto', sans-serif;
+    color: $lightgrey;
+}
+
+ul{
+    font-family: 'Roboto', sans-serif;
+    color: $lightgrey;
+}
+
 .uk-accordion-title{
     font-family: 'Roboto', sans-serif;
     font-size: rem-calc(15);
     color: $lightgrey;
     padding-top: 4px;
     opacity: .5;
+}
+
+.black-text{
+    font-family: 'Oswald', sans-serif;
+    color: $black;
+}
+
+.black-text2{
+    font-family: 'Roboto', sans-serif;
+    color: $black;
 }
