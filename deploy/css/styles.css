@@ -424,6 +424,54 @@ textarea {
 /* =============
     Navigation
 ============= */
+header {
+  z-index: 2000000000000000000000000; }
+  header #siteNav {
+    width: 100%;
+    background-color: #333333;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end; }
+    header #siteNav ul {
+      width: 300px;
+      padding-top: 14px;
+      display: flex;
+      margin: 0 20vw;
+      justify-content: space-between;
+      margin-right: 20px; }
+      header #siteNav ul button {
+        border: none;
+        background-color: #333333;
+        color: #fff;
+        outline: none; }
+      header #siteNav ul li:nth-child(1) button:hover {
+        color: #F9D159; }
+      header #siteNav ul li:nth-child(2) button:hover {
+        color: #0477BE; }
+      header #siteNav ul li:nth-child(3) button:hover {
+        color: #DD002A; }
+  header #pageNav {
+    width: 100%;
+    background-color: #c0c0c0;
+    height: 50px;
+    position: fixed;
+    top: 50px;
+    display: flex;
+    justify-content: flex-end; }
+    header #pageNav ul {
+      width: 300px;
+      padding-top: 14px;
+      display: flex;
+      margin-right: 20px;
+      justify-content: space-between; }
+      header #pageNav ul button {
+        border: none;
+        background-color: #c0c0c0;
+        color: #000;
+        outline: none; }
+
 /* =============
     Header
 ============= */
