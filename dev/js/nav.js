@@ -2,7 +2,7 @@ var navItemsPAGE1 = [];
 
 var navItemsPAGE2 = [];
 
-var navItemsPAGE3 = ["#training","#physics","insideTheCar"];
+var navItemsPAGE3 = ["#training","#physics","#insideTheCar"];
 
 
 

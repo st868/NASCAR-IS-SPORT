@@ -12,7 +12,7 @@ var inviewQA = new Waypoint.Inview({
   exited: function(direction) {
     headerColor(direction , scrollDirection = "exited");
   },offset: {
-    top: 50 // 67px
+    top: 50
   }
 })
 
