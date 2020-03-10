@@ -1,0 +1,1 @@
+var navItemsPAGE1=[],navItemsPAGE2=[],navItemsPAGE3=["#training","#physics","insideTheCar"],scrollPosition=window.pageYOffset;window.onscroll=function(){var t=window.pageYOffset;scrollPosition>t?document.getElementById("#siteNav").style.top="0":scrollPosition<t&&(document.getElementById("#siteNav").style.top="-50px"),scrollPosition=t};

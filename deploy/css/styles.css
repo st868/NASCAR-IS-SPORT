@@ -764,6 +764,56 @@ textarea {
             #nascarhome #nascarhomecontainer #signup .contactform .button button {
               padding: 13px 45px; } }
 
+/* =============
+    Header
+============= */
+header #siteNav {
+  width: 100%;
+  background-color: #333333;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end; }
+  header #siteNav ul {
+    width: 300px;
+    padding-top: 14px;
+    display: flex;
+    margin: 0 20vw;
+    justify-content: space-between;
+    margin-right: 20px; }
+    header #siteNav ul button {
+      border: none;
+      background-color: #333333;
+      color: #fff;
+      outline: none; }
+    header #siteNav ul li:nth-child(1) button:hover {
+      color: #F9D159; }
+    header #siteNav ul li:nth-child(2) button:hover {
+      color: #0477BE; }
+    header #siteNav ul li:nth-child(3) button:hover {
+      color: #DD002A; }
+
+header #pageNav {
+  width: 100%;
+  background-color: #c0c0c0;
+  height: 50px;
+  position: fixed;
+  top: 50px;
+  display: flex;
+  justify-content: flex-end; }
+  header #pageNav ul {
+    width: 300px;
+    padding-top: 14px;
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between; }
+    header #pageNav ul button {
+      border: none;
+      background-color: #c0c0c0;
+      color: #000;
+      outline: none; }
+
 #point2-container .QA h4 {
   color: #0477BE; }
 
@@ -845,6 +895,258 @@ textarea {
   @media (min-width: 1200px) {
     #point2-container #individual_strategies #individual_strategies_container {
       grid-area: instrategies; } }
+  @media (min-width: 768px) {
+    #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer {
+      display: grid;
+      grid-template-columns: auto 60%;
+      grid-template-areas: "drivetimes drivepg" "carsontracktwo carsontrackpg" "interiortwo interiorpg";
+      grid-row-gap: 60px;
+      grid-column-gap: 40px;
+      padding-top: 50px; } }
+  @media (min-width: 992px) {
+    #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer {
+      grid-template-columns: auto 71%; } }
+  #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer .sectionsidepadding {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    @media (min-width: 768px) {
+      #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer .sectionsidepadding {
+        padding-top: 0; } }
+  #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer h5 {
+    padding-bottom: 7px; }
+    @media (min-width: 992px) {
+      #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer h5 {
+        padding: 0 0 0 0; } }
+  #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #c0c0c0; }
+    @media (min-width: 768px) {
+      #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is1 {
+        border: none;
+        grid-area: drivetimes;
+        padding: 0;
+        margin: 0 0 0 20%; } }
+  @media (min-width: 768px) {
+    #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is2 {
+      grid-area: drivepg; } }
+  #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is3 div {
+    background-image: url("../img/point2/carsontrack.jpg");
+    width: 100%;
+    height: 340px;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is3 div {
+        height: 300px;
+        margin: 0 0 0 48px; } }
+  @media (min-width: 768px) {
+    #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is3 {
+      grid-area: carsontracktwo; } }
+  #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is4 {
+    border-bottom: 1px solid #c0c0c0; }
+    @media (min-width: 768px) {
+      #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is4 {
+        border: none;
+        grid-area: carsontrackpg; } }
+  @media (min-width: 768px) {
+    #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is5 {
+      border: none;
+      grid-area: interiorpg; } }
+  #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is6 div {
+    background-image: url("../img/point2/interior.jpg");
+    width: 100%;
+    height: 340px;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is6 div {
+        height: 300px;
+        margin: 0 0 0 48px; } }
+  @media (min-width: 768px) {
+    #point2-container #individual_strategies #individual_strategies_container #individualstrategiescontentcontainer #is6 {
+      border: none;
+      grid-area: interiortwo; } }
+
+#point2-container #team_strategies {
+  background-color: #1C1C1E; }
+  @media (min-width: 1200px) {
+    #point2-container #team_strategies {
+      display: grid;
+      grid-template-columns: auto 1200px auto;
+      grid-template-areas: ". instrategies ."; } }
+  @media (min-width: 1200px) {
+    #point2-container #team_strategies #team_strategies_container {
+      grid-area: instrategies; } }
+  @media (min-width: 768px) {
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer {
+      display: grid;
+      grid-template-columns: auto 60%;
+      grid-template-areas: "pittimes fastpg" "bluepit techpg" "nightpit togetherpg";
+      grid-row-gap: 60px;
+      grid-column-gap: 40px;
+      padding-top: 50px; } }
+  @media (min-width: 992px) {
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer {
+      grid-template-columns: auto 71%; } }
+  #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer .sectionsidepadding {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    @media (min-width: 768px) {
+      #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer .sectionsidepadding {
+        padding-top: 0; } }
+  #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer h5 {
+    padding-bottom: 7px; }
+    @media (min-width: 992px) {
+      #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer h5 {
+        padding: 0 0 0 0; } }
+  #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts1 {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #c0c0c0; }
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts1 p {
+      padding-top: 30px;
+      font-size: 0.8125rem; }
+    @media (min-width: 768px) {
+      #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts1 {
+        border: none;
+        grid-area: pittimes;
+        padding: 0;
+        margin: 0 0 0 20%; } }
+  @media (min-width: 768px) {
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts2 {
+      grid-area: fastpg; } }
+  #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts3 div {
+    background-image: url("../img/point2/pitcrew2.jpg");
+    width: 100%;
+    height: 340px;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts3 div {
+        height: 300px;
+        margin: 0 0 0 48px; } }
+  @media (min-width: 768px) {
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts3 {
+      grid-area: bluepit; } }
+  #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts4 {
+    border-bottom: 1px solid #c0c0c0; }
+    @media (min-width: 768px) {
+      #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts4 {
+        border: none;
+        grid-area: techpg; } }
+  @media (min-width: 768px) {
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts5 {
+      border: none;
+      grid-area: togetherpg; } }
+  #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts6 div {
+    background-image: url("../img/point2/pitcrew1.jpg");
+    width: 100%;
+    height: 340px;
+    background-size: cover; }
+    @media (min-width: 768px) {
+      #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts6 div {
+        height: 300px;
+        margin: 0 0 0 48px; } }
+  @media (min-width: 768px) {
+    #point2-container #team_strategies #team_strategies_container #teamstrategiescontentcontainer #ts6 {
+      border: none;
+      grid-area: nightpit; } }
+
+#point2-container #tldr {
+  background-image: url("../img/point2/text-bg.jpg");
+  background-size: contain; }
+  @media (min-width: 1200px) {
+    #point2-container #tldr {
+      display: grid;
+      grid-template-areas: ". tldrcont .";
+      grid-template-columns: auto 1200px auto; } }
+  @media (min-width: 1200px) {
+    #point2-container #tldr #tldrcontainer {
+      grid-area: tldrcont; } }
+  @media (min-width: 768px) {
+    #point2-container #tldr #tldrcontainer #tldrpgcontainer {
+      width: 400px;
+      margin: 0 0 0 28%; } }
+  #point2-container #tldr #tldrcontainer #tldrpgcontainer p {
+    font-size: 1.5rem;
+    line-height: 2.375rem; }
+
+#page2transitionleft left-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: auto;
+  left: -100%;
+  bottom: auto;
+  right: auto;
+  background: #DD002A;
+  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1); }
+
+#page2transitionleft.active {
+  left: 100%; }
+
+#page2transitionleft .left-layer--2 {
+  background: #DD002A;
+  transition-delay: .3s; }
+
+#page2transitionleft .left-layer--3 {
+  background: #F9D159;
+  transition-delay: 0.12s; }
+
+#page2transitionleft .left-layer--4 {
+  background: #0477BE;
+  transition-delay: 0.08s; }
+
+#subfooter2 {
+  background-color: #0477BE; }
+  @media (min-width: 768px) {
+    #subfooter2 {
+      display: grid;
+      grid-template-columns: auto 600px auto;
+      grid-template-areas: ". subfootertwo ."; } }
+  #subfooter2 ul {
+    display: grid;
+    grid-template-columns: auto auto; }
+    @media (min-width: 1200px) {
+      #subfooter2 ul {
+        grid-area: subfootertwo; } }
+    #subfooter2 ul a {
+      color: white;
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif; }
+    #subfooter2 ul p {
+      text-align: center;
+      color: white; }
+    #subfooter2 ul a:link, #subfooter2 ul a:visited {
+      color: white;
+      transition: .25s; }
+    #subfooter2 ul a:hover, #subfooter2 ul a:active {
+      text-decoration: underline;
+      color: white;
+      font-weight: 500; }
+    #subfooter2 ul span {
+      display: none; }
+      @media (min-width: 768px) {
+        #subfooter2 ul span {
+          display: block; } }
+    #subfooter2 ul li {
+      padding: 0 0 30px 0; }
+      @media (min-width: 768px) {
+        #subfooter2 ul li {
+          padding: 50px 0 80px 0; } }
+    #subfooter2 ul #whyisnascarasport2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      #subfooter2 ul #whyisnascarasport2 img {
+        transform: rotate(90deg); }
+    #subfooter2 ul #itrequiresstrength2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      #subfooter2 ul #itrequiresstrength2 img {
+        transform: rotate(-90deg); }
 
 #point3-container {
   max-width: 1400px; }
