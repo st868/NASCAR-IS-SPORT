@@ -1,11 +1,14 @@
 /* =============
     Navigation
 ============= */
+body{
+    padding-top: 100px;
+}
 header{
     z-index: 2000000000000000000000000;
     #siteNav{
         width: 100%;
-        background-color: #333333;
+        background-color: $darkgrey;
         height:50px;
         position: fixed;
         top:0;
@@ -18,26 +21,27 @@ header{
             margin: 0 20vw;
             justify-content: space-between;
             margin-right: 20px;
-            button{
+            a{
                 border: none;
-                background-color: #333333;
                 color: $white;
                 outline: none;
+                text-decoration: none;
+                transition: 0.25s;
             }
-            li:nth-child(1) button:hover{
+            li:nth-child(1) a:hover{
                 color:$yellow;
             }
-            li:nth-child(2) button:hover{
+            li:nth-child(2) a:hover{
                 color:$blue;
             }
-            li:nth-child(3) button:hover{
+            li:nth-child(3) a:hover{
                 color:$red;
             }
         }
     }
-    #pageNav{
+    #pageNav1{
         width: 100%;
-        background-color: $lightgrey;
+        background-color: #383838;
         height:50px;
         position: fixed;
         top:50px;
@@ -49,11 +53,61 @@ header{
             display: flex;
             margin-right: 20px;
             justify-content: space-between;
-            button{
-                border: none;
-                background-color: $lightgrey;
-                color: $black;
-                outline: none;
+            a{
+                text-decoration: none;
+                color: $white;
+            }
+            a:hover{
+                color: $yellow;
+                transition: 0.25s;
+            }
+        }
+    }
+    #pageNav2{
+        width: 100%;
+        background-color: #383838;
+        height:50px;
+        position: fixed;
+        top:50px;
+        display: flex;
+        justify-content: flex-end;
+        ul{
+            width: 300px;
+            padding-top: 14px;
+            display: flex;
+            margin-right: 20px;
+            justify-content: space-between;
+            a{
+                text-decoration: none;
+                color: $white;
+            }
+            a:hover{
+                color: $blue;
+                transition: 0.25s;
+            }
+        }
+    }
+    #pageNav3{
+        width: 100%;
+        background-color: #383838;
+        height:50px;
+        position: fixed;
+        top:50px;
+        display: flex;
+        justify-content: flex-end;
+        ul{
+            width: 300px;
+            padding-top: 14px;
+            display: flex;
+            margin-right: 20px;
+            justify-content: space-between;
+            a{
+                text-decoration: none;
+                color: $white;
+            }
+            a:hover{
+                color: $red;
+                transition: 0.25s;
             }
         }
     }

@@ -321,6 +321,9 @@ ul {
   ul li {
     list-style: none; }
 
+body {
+  padding-top: 50px; }
+
 /* =============
     Typography
 ============= */
@@ -424,11 +427,14 @@ textarea {
 /* =============
     Navigation
 ============= */
+body {
+  padding-top: 100px; }
+
 header {
   z-index: 2000000000000000000000000; }
   header #siteNav {
     width: 100%;
-    background-color: #333333;
+    background-color: #1C1C1E;
     height: 50px;
     position: fixed;
     top: 0;
@@ -441,36 +447,78 @@ header {
       margin: 0 20vw;
       justify-content: space-between;
       margin-right: 20px; }
-      header #siteNav ul button {
+      header #siteNav ul a {
         border: none;
-        background-color: #333333;
         color: #fff;
-        outline: none; }
-      header #siteNav ul li:nth-child(1) button:hover {
+        outline: none;
+        text-decoration: none;
+        transition: 0.25s; }
+      header #siteNav ul li:nth-child(1) a:hover {
         color: #F9D159; }
-      header #siteNav ul li:nth-child(2) button:hover {
+      header #siteNav ul li:nth-child(2) a:hover {
         color: #0477BE; }
-      header #siteNav ul li:nth-child(3) button:hover {
+      header #siteNav ul li:nth-child(3) a:hover {
         color: #DD002A; }
-  header #pageNav {
+  header #pageNav1 {
     width: 100%;
-    background-color: #c0c0c0;
+    background-color: #383838;
     height: 50px;
     position: fixed;
     top: 50px;
     display: flex;
     justify-content: flex-end; }
-    header #pageNav ul {
+    header #pageNav1 ul {
       width: 300px;
       padding-top: 14px;
       display: flex;
       margin-right: 20px;
       justify-content: space-between; }
-      header #pageNav ul button {
-        border: none;
-        background-color: #c0c0c0;
-        color: #000;
-        outline: none; }
+      header #pageNav1 ul a {
+        text-decoration: none;
+        color: #fff; }
+      header #pageNav1 ul a:hover {
+        color: #F9D159;
+        transition: 0.25s; }
+  header #pageNav2 {
+    width: 100%;
+    background-color: #383838;
+    height: 50px;
+    position: fixed;
+    top: 50px;
+    display: flex;
+    justify-content: flex-end; }
+    header #pageNav2 ul {
+      width: 300px;
+      padding-top: 14px;
+      display: flex;
+      margin-right: 20px;
+      justify-content: space-between; }
+      header #pageNav2 ul a {
+        text-decoration: none;
+        color: #fff; }
+      header #pageNav2 ul a:hover {
+        color: #0477BE;
+        transition: 0.25s; }
+  header #pageNav3 {
+    width: 100%;
+    background-color: #383838;
+    height: 50px;
+    position: fixed;
+    top: 50px;
+    display: flex;
+    justify-content: flex-end; }
+    header #pageNav3 ul {
+      width: 300px;
+      padding-top: 14px;
+      display: flex;
+      margin-right: 20px;
+      justify-content: space-between; }
+      header #pageNav3 ul a {
+        text-decoration: none;
+        color: #fff; }
+      header #pageNav3 ul a:hover {
+        color: #DD002A;
+        transition: 0.25s; }
 
 /* =============
     Header

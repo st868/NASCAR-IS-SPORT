@@ -12,7 +12,7 @@ var inviewQA = new Waypoint.Inview({
   exited: function(direction) {
     headerColor(direction , scrollDirection = "exited");
   },offset: {
-    top: 50 // 67px
+    top: 100
   }
 })
 
@@ -20,16 +20,16 @@ var inviewQA = new Waypoint.Inview({
 function headerColor(direction, scrollDirection){
 
     if(direction === "up" & scrollDirection === "enter"){
-        gsap.to("#pageNav",{duration:0.5,backgroundColor:"#000"});
+        gsap.to("#pageNav",{duration:0.15,backgroundColor:"#1C1C1E"});
 
     }else if(direction === "up"& scrollDirection === "entered"){
-        gsap.to("#pageNav",{duration:0.5,backgroundColor:"#fff"});
+        gsap.to("#pageNav",{duration:0.15,backgroundColor:"#383838"});
 
     }else if(direction === "down"& scrollDirection === "exit"){
-        gsap.to("#pageNav",{duration:0.5,backgroundColor:"#000"});
+        gsap.to("#pageNav",{duration:0.15,backgroundColor:"#1C1C1E"});
 
     } else if(direction === "down"& scrollDirection === "exited"){
-        gsap.to("#pageNav",{duration:0.5,backgroundColor:"#fff"});
+        gsap.to("#pageNav",{duration:0.15,backgroundColor:"#383838"});
     }
 
 }
