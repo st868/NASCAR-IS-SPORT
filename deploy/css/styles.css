@@ -428,10 +428,30 @@ textarea {
     Navigation
 ============= */
 body {
-  padding-top: 100px; }
+  padding-top: 50px; }
 
 header {
   z-index: 2000000000000000000000000; }
+  header #logoFull {
+    display: none; }
+    @media (min-width: 576px) {
+      header #logoFull {
+        display: block; } }
+    header #logoFull svg {
+      z-index: 900000000000000000000000099999;
+      left: 7px;
+      margin-top: 7px;
+      height: 36px;
+      position: fixed; }
+  @media (min-width: 576px) {
+    header #logoSmall {
+      display: none; } }
+  header #logoSmall svg {
+    z-index: 900000000000000000000000099999;
+    left: 7px;
+    margin-top: 7px;
+    height: 36px;
+    position: fixed; }
   header #siteNav {
     z-index: 2000000000000000000000000;
     width: 100%;

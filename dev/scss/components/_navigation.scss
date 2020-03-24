@@ -2,9 +2,34 @@
     Navigation
 ============= */
 body{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 header{
+    #logoFull{
+        display: none;
+        @include sm{
+            display: block;
+        }
+        svg{
+            z-index: 900000000000000000000000099999;
+            left:7px;
+            margin-top: 7px;
+            height: 36px;
+            position:fixed;
+        }
+    }
+    #logoSmall{
+        @include sm{
+            display: none;
+        }
+        svg{
+            z-index: 900000000000000000000000099999;
+            left:7px;
+            margin-top: 7px;
+            height: 36px;
+            position:fixed;
+        }
+    }
     z-index: 2000000000000000000000000;
     #siteNav{
         z-index: 2000000000000000000000000;
